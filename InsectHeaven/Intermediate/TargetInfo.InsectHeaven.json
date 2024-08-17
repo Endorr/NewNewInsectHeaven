@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "InsectHeaven",
+			"Path": "C:\\Uneal\\InsectHeaven\\Source\\InsectHeaven.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "InsectHeavenEditor",
+			"Path": "C:\\Uneal\\InsectHeaven\\Source\\InsectHeavenEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

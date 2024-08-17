@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Uneal\\InsectHeaven\\Source\\InsectHeaven\\InsectHeaven.Build.cs",
+		"C:\\Uneal\\InsectHeaven\\Source\\InsectHeaven.Target.cs",
+		"C:\\Uneal\\InsectHeaven\\Source\\InsectHeavenEditor.Target.cs"
+	],
+	"EngineVersion": "4.27.2"
+}
