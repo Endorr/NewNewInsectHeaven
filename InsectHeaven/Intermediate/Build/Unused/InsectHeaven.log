@@ -1,18 +1,19 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\PC\Documents\GitHub\NewNewInsectHeaven).
-UnrealBuildTool : warning : Couldn't parse '<<<<<<< HEAD' in UnrealBuildTool.ConfigFileSection of D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Saved\Config\Windows\Game.ini
-UnrealBuildTool : warning : Couldn't parse '=======' in UnrealBuildTool.ConfigFileSection of D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Saved\Config\Windows\Game.ini
-UnrealBuildTool : warning : Couldn't parse '>>>>>>> abda29c0c7c18641d90fd1bc3194ba5ce9e26d64' in UnrealBuildTool.ConfigFileSection of D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Saved\Config\Windows\Game.ini
-  Invalidating makefile for InsectHeavenEditor (SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h modified)
-UnrealBuildTool : error : Unhandled exception: Tools.DotNETCommon.JsonParseException: Unable to parse D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\BuildRules\InsectHeavenModuleRulesManifest.json: Could not find token at index 22
-                             위치: Tools.DotNETCommon.JsonObject.Read(FileReference File) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\JsonObject.cs:줄 57
-                             위치: UnrealBuildTool.DynamicCompilation.RequiresCompilation(HashSet`1 SourceFiles, FileReference AssemblyManifestFilePath, FileReference OutputAssemblyPath) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:줄 75
-                             위치: UnrealBuildTool.DynamicCompilation.CompileAndLoadAssembly(FileReference OutputAssemblyPath, HashSet`1 SourceFileNames, List`1 ReferencedAssembies, List`1 PreprocessorDefines, Boolean DoNotCompile, Boolean TreatWarningsAsErrors) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\DynamicCompilation.cs:줄 432
-                             위치: UnrealBuildTool.RulesAssembly..ctor(RulesScope Scope, List`1 BaseDirs, IReadOnlyList`1 Plugins, Dictionary`2 ModuleFileToContext, List`1 TargetFiles, FileReference AssemblyFileName, Boolean bContainsEngineModules, Nullable`1 DefaultBuildSettings, Boolean bReadOnly, Boolean bSkipCompile, RulesAssembly Parent) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesAssembly.cs:줄 110
-                             위치: UnrealBuildTool.RulesCompiler.CreateProjectRulesAssembly(FileReference ProjectFileName, Boolean bUsePrecompiled, Boolean bSkipCompile) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:줄 581
-                             위치: UnrealBuildTool.RulesCompiler.CreateTargetRulesAssembly(FileReference ProjectFile, String TargetName, Boolean bSkipRulesCompile, Boolean bUsePrecompiled, FileReference ForeignPlugin) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\RulesCompiler.cs:줄 644
-                             위치: UnrealBuildTool.UEBuildTarget.Create(TargetDescriptor Descriptor, Boolean bSkipRulesCompile, Boolean bUsePrecompiled) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Configuration\UEBuildTarget.cs:줄 675
-                             위치: UnrealBuildTool.BuildMode.CreateMakefile(BuildConfiguration BuildConfiguration, TargetDescriptor TargetDescriptor, ISourceFileWorkingSet WorkingSet) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:줄 600
-                             위치: UnrealBuildTool.BuildMode.Build(List`1 TargetDescriptors, BuildConfiguration BuildConfiguration, ISourceFileWorkingSet WorkingSet, BuildOptions Options, FileReference WriteOutdatedActionsFile, Boolean bSkipPreBuildTargets) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:줄 257
-                             위치: UnrealBuildTool.BuildMode.Execute(CommandLineArguments Arguments) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\Modes\BuildMode.cs:줄 226
-                             위치: UnrealBuildTool.UnrealBuildTool.Main(String[] ArgumentsArray) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.cs:줄 557
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: "C:\UE_4.27\Engine\Build\BatchFiles\Build.bat InsectHeavenEditor Win64 DebugGame -Project="D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\InsectHeaven.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: 6).
+  
+  처리되지 않은 예외: System.ArgumentException: Path fragment '"InsectHeaven/Content/Resource/2D/Character/Ch_00/\352\270\264\354\202\254\353\271\204_\352\270\260\353\263\270.uasset"' contains invalid directory separators.
+     위치: Tools.DotNETCommon.FileSystemReference.CombineStrings(DirectoryReference BaseDirectory, String[] Fragments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\FileSystemReference.cs:줄 90
+     위치: UnrealBuildTool.GitSourceFileWorkingSet.AddPath(String Path) 파일 D:\Build\++UE4\Sync\Engine\Source\Programs\UnrealBuildTool\System\SourceFileWorkingSet.cs:줄 275
+     위치: System.Diagnostics.Process.OutputReadNotifyUser(String data)
+     위치: System.Diagnostics.AsyncStreamReader.FlushMessageQueue()
+     위치: System.Diagnostics.AsyncStreamReader.GetLinesFromStringBuilder()
+     위치: System.Diagnostics.AsyncStreamReader.ReadBuffer(IAsyncResult ar)
+     위치: System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+     위치: System.Threading.ExecutionContext.Run(ExecutionContext executionContext, ContextCallback callback, Object state, Boolean preserveSyncCtx)
+     위치: System.IO.Stream.ReadWriteTask.System.Threading.Tasks.ITaskCompletionAction.Invoke(Task completingTask)
+     위치: System.Threading.Tasks.Task.FinishContinuations()
+     위치: System.Threading.Tasks.Task.Finish(Boolean bUserDelegateExecuted)
+     위치: System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
+     위치: System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
+     위치: System.Threading.ThreadPoolWorkQueue.Dispatch()
+  Waiting for 'git status' command to complete
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: "C:\UE_4.27\Engine\Build\BatchFiles\Build.bat InsectHeavenEditor Win64 DebugGame -Project="D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\InsectHeaven.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -532462766).
