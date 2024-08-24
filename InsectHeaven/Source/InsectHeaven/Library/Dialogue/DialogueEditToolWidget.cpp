@@ -1090,6 +1090,7 @@ void UDialogueToolWidget::CloseDeselectContext(UButton* _Button)
 
 void UDialogueToolWidget::GrabAction(class UButton* _Button)
 {
+    return;
 	for (int32 LayerIndex = 0; LayerIndex < CurrentDialogue.ActionLayers.Num(); ++LayerIndex)
 	{
 		UHorizontalBox* ActionHorizontalBox = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex));
@@ -1113,6 +1114,8 @@ void UDialogueToolWidget::GrabAction(class UButton* _Button)
 
 void UDialogueToolWidget::GrabOffAction()
 {
+    return;
+
 	if (GrabView_Action->GetVisibility() ==ESlateVisibility::SelfHitTestInvisible)
 	{
 		MoveAction(DragFormerIndex, DragPostIndex, GrabView_Action->GetActionInfo());
