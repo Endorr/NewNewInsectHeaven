@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "InsectHeaven",
-			"Path": "C:\\Uneal\\InsectHeaven\\Source\\InsectHeaven.Target.cs",
+			"Path": "C:\\Users\\nanim\\GitHub\\InsectHeaven\\InsectHeaven\\Source\\InsectHeaven.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "InsectHeavenEditor",
-			"Path": "C:\\Uneal\\InsectHeaven\\Source\\InsectHeavenEditor.Target.cs",
+			"Path": "C:\\Users\\nanim\\GitHub\\InsectHeaven\\InsectHeaven\\Source\\InsectHeavenEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

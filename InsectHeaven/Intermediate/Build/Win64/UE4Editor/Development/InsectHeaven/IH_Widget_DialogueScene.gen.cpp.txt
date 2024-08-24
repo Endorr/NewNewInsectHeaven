@@ -1,9 +1,9 @@
-C:\Uneal\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Development\InsectHeaven\Definitions.InsectHeaven.h
+C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Development\InsectHeaven\Definitions.InsectHeaven.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-C:\Uneal\InsectHeaven\Source\InsectHeaven/Widget/Dialogue/IH_Widget_DialogueScene.h
-C:\Uneal\InsectHeaven\Source\InsectHeaven\Widget\IH_Widget.h
-C:\Uneal\InsectHeaven\Source\InsectHeaven\IH_GameDefine.h
+C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven/Widget/Dialogue/IH_Widget_DialogueScene.h
+C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\IH_Widget.h
+C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\IH_GameDefine.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -103,5 +103,5 @@ C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyP
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Uneal\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget.generated.h
-C:\Uneal\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_DialogueScene.generated.h
+C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget.generated.h
+C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_DialogueScene.generated.h
