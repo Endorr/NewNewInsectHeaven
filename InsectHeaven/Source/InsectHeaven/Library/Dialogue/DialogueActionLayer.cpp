@@ -2,6 +2,7 @@
 
 #include "DialogueAction.h"
 #include "Action/DialogueAction_Empty.h"
+#include "Templates/SubclassOf.h"
 
 void UDialogueActionLayer::SaveToJson(TSharedRef<FJsonObject> _JsonObject)
 {
