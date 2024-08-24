@@ -1,8 +1,14 @@
 {
 	"SourceFiles": [
+<<<<<<< HEAD
 		"D:\\Users\\PC\\Documents\\GitHub\\NewNewInsectHeaven\\InsectHeaven\\Source\\InsectHeaven\\InsectHeaven.Build.cs",
 		"D:\\Users\\PC\\Documents\\GitHub\\NewNewInsectHeaven\\InsectHeaven\\Source\\InsectHeaven.Target.cs",
 		"D:\\Users\\PC\\Documents\\GitHub\\NewNewInsectHeaven\\InsectHeaven\\Source\\InsectHeavenEditor.Target.cs"
+=======
+		"C:\\Users\\nanim\\GitHub\\NewNewInsectHeaven\\InsectHeaven\\Source\\InsectHeaven\\InsectHeaven.Build.cs",
+		"C:\\Users\\nanim\\GitHub\\NewNewInsectHeaven\\InsectHeaven\\Source\\InsectHeaven.Target.cs",
+		"C:\\Users\\nanim\\GitHub\\NewNewInsectHeaven\\InsectHeaven\\Source\\InsectHeavenEditor.Target.cs"
+>>>>>>> abda29c0c7c18641d90fd1bc3194ba5ce9e26d64
 	],
 	"EngineVersion": "4.27.2"
 }
