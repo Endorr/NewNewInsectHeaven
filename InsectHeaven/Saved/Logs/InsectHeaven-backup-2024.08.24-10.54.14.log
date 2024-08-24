@@ -1,0 +1,1684 @@
+﻿Log file open, 08/24/24 19:24:30
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: InsectHeaven
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 1.006373
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +9:00, Platform Override: ''
+LogInit: Display: Loading text-based GConfig....
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin GameplayCameras
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PixWinPlugin
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin TextureFormatOodle
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin OodleData
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin OodleNetwork
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin EditorScriptingUtilities
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin OpenImageDenoise
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin PythonScriptPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OpenXR
+LogPluginManager: Mounting plugin OpenXREyeTracker
+LogPluginManager: Mounting plugin OpenXRHandTracking
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Takes
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogOculusPluginWrapper: OculusPlugin initialized successfully
+LogHMD: Failed initializing OVRPlugin 1.59.0
+LogInit: Build: ++UE4+Release-4.27-CL-18319896
+LogInit: Engine Version: 4.27.2-18319896+++UE4+Release-4.27
+LogInit: Compatible Engine Version: 4.27.0-17155196+++UE4+Release-4.27
+LogInit: Net CL: 17155196
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i5-8600K CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Nov 30 2021 07:12:08
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.27
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/UE_4.27/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 14
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 45
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 47
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:103][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2024.08.24-10.24.32:103][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2024.08.24-10.24.32:104][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:104][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:172][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:172][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.08.24-10.24.32:172][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.08.24-10.24.32:172][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:172][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.08.24-10.24.32:173][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:173][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.08.24-10.24.32:173][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.08.24-10.24.32:173][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.08.24-10.24.32:173][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.08.24-10.24.32:173][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.08.24-10.24.32:173][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.08.24-10.24.32:174][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.08.24-10.24.32:174][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.08.24-10.24.32:175][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.08.24-10.24.32:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.08.24-10.24.32:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.08.24-10.24.32:176][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.08.24-10.24.32:177][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.08.24-10.24.32:178][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.08.24-10.24.32:179][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.08.24-10.24.32:180][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.08.24-10.24.32:180][  0]LogInit: Selected Device Profile: [Windows]
+[2024.08.24-10.24.32:181][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2024.08.24-10.24.32:181][  0]LogHAL: Display: Platform has ~ 16 GB [17129017344 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2024.08.24-10.24.32:181][  0]LogInit: Going up to parent DeviceProfile []
+[2024.08.24-10.24.32:181][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2024.08.24-10.24.32:181][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2024.08.24-10.24.32:182][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2024.08.24-10.24.32:183][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2024.08.24-10.24.32:184][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Scalability.ini]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2024.08.24-10.24.32:185][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2024.08.24-10.24.32:185][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2024.08.24-10.24.32:186][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2024.08.24-10.24.32:186][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2024.08.24-10.24.32:186][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Engine.ini]
+[2024.08.24-10.24.32:186][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Config/Windows/Editor.ini]
+[2024.08.24-10.24.32:186][  0]LogInit: Computer: DESKTOP-P2P91DD
+[2024.08.24-10.24.32:187][  0]LogInit: User: PC
+[2024.08.24-10.24.32:187][  0]LogInit: CPU Page size=4096, Cores=6
+[2024.08.24-10.24.32:187][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2024.08.24-10.24.32:188][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2024.08.24-10.24.32:188][  0]LogMemory: Platform Memory Stats for Windows
+[2024.08.24-10.24.32:188][  0]LogMemory: Process Physical Memory: 141.35 MB used, 141.36 MB peak
+[2024.08.24-10.24.32:188][  0]LogMemory: Process Virtual Memory: 111.59 MB used, 111.59 MB peak
+[2024.08.24-10.24.32:188][  0]LogMemory: Physical Memory: 9862.53 MB used,  6472.98 MB free, 16335.50 MB total
+[2024.08.24-10.24.32:188][  0]LogMemory: Virtual Memory: 134202784.00 MB used,  14941.04 MB free, 134217728.00 MB total
+[2024.08.24-10.24.32:214][  0]LogWindows: WindowsPlatformFeatures enabled
+[2024.08.24-10.24.32:507][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2024.08.24-10.24.32:509][  0]LogInit: Using OS detected language (ko-KR).
+[2024.08.24-10.24.32:509][  0]LogInit: Using OS detected locale (ko-KR).
+[2024.08.24-10.24.32:519][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2024.08.24-10.24.32:699][  0]LogInit: Setting process to per monitor DPI aware
+[2024.08.24-10.24.32:794][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2024.08.24-10.24.32:833][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2024.08.24-10.24.32:837][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2024.08.24-10.24.33:231][  0]LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+[2024.08.24-10.24.33:249][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.08.24-10.24.33:250][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2024.08.24-10.24.33:250][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2024.08.24-10.24.33:250][  0]LogD3D11RHI: D3D11 adapters:
+[2024.08.24-10.24.33:528][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2024.08.24-10.24.33:529][  0]LogD3D11RHI:       2988/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2024.08.24-10.24.33:547][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2024.08.24-10.24.33:547][  0]LogD3D11RHI:       0/0/8167 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2024.08.24-10.24.33:548][  0]LogD3D11RHI: Chosen D3D11 Adapter:
+[2024.08.24-10.24.33:548][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1060 3GB
+[2024.08.24-10.24.33:549][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.08.24-10.24.33:549][  0]LogD3D11RHI:     DeviceId    : 1c02
+[2024.08.24-10.24.33:549][  0]LogD3D11RHI:     SubSysId    : 32871462
+[2024.08.24-10.24.33:549][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.08.24-10.24.33:550][  0]LogD3D11RHI:     DedicatedVideoMemory : 3133145088 bytes
+[2024.08.24-10.24.33:550][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.08.24-10.24.33:551][  0]LogD3D11RHI:     SharedSystemMemory : 8564508672 bytes
+[2024.08.24-10.24.33:551][  0]LogD3D11RHI:     AdapterLuid : 0 64982
+[2024.08.24-10.24.33:631][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2024.08.24-10.24.33:631][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2024.08.24-10.24.33:632][  0]LogWindows: EnumDisplayDevices:
+[2024.08.24-10.24.33:635][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2024.08.24-10.24.33:637][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:1)
+[2024.08.24-10.24.33:639][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2024.08.24-10.24.33:640][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2024.08.24-10.24.33:641][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2024.08.24-10.24.33:642][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2024.08.24-10.24.33:643][  0]LogD3D11RHI:   Driver Version: 457.51 (internal:27.21.14.5751, unified:457.51)
+[2024.08.24-10.24.33:643][  0]LogD3D11RHI:      Driver Date: 11-22-2020
+[2024.08.24-10.24.33:643][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2024.08.24-10.24.33:643][  0]LogD3D11RHI: Creating D3DDevice using adapter:
+[2024.08.24-10.24.33:643][  0]LogD3D11RHI:     Description : NVIDIA GeForce GTX 1060 3GB
+[2024.08.24-10.24.33:644][  0]LogD3D11RHI:     VendorId    : 10de
+[2024.08.24-10.24.33:644][  0]LogD3D11RHI:     DeviceId    : 1c02
+[2024.08.24-10.24.33:645][  0]LogD3D11RHI:     SubSysId    : 32871462
+[2024.08.24-10.24.33:645][  0]LogD3D11RHI:     Revision    : 00a1
+[2024.08.24-10.24.33:645][  0]LogD3D11RHI:     DedicatedVideoMemory : 3133145088 bytes
+[2024.08.24-10.24.33:646][  0]LogD3D11RHI:     DedicatedSystemMemory : 0 bytes
+[2024.08.24-10.24.33:646][  0]LogD3D11RHI:     SharedSystemMemory : 8564508672 bytes
+[2024.08.24-10.24.33:646][  0]LogD3D11RHI:     AdapterLuid : 0 64982
+[2024.08.24-10.24.33:772][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2024.08.24-10.24.33:773][  0]LogD3D11RHI: Async texture creation enabled
+[2024.08.24-10.24.33:773][  0]LogD3D11RHI: Array index from any shader is supported
+[2024.08.24-10.24.33:800][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2024.08.24-10.24.33:970][  0]LogRHI: GeForceNow SDK initialized: 1
+[2024.08.24-10.24.35:180][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2024.08.24-10.24.35:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2024.08.24-10.24.35:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2024.08.24-10.24.35:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2024.08.24-10.24.35:218][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2024.08.24-10.24.35:219][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2024.08.24-10.24.35:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2024.08.24-10.24.35:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2024.08.24-10.24.35:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2024.08.24-10.24.35:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2024.08.24-10.24.35:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2024.08.24-10.24.35:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2024.08.24-10.24.35:350][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2024.08.24-10.24.35:388][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2024.08.24-10.24.35:399][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2024.08.24-10.24.35:410][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2024.08.24-10.24.35:421][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2024.08.24-10.24.35:450][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2024.08.24-10.24.35:461][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2024.08.24-10.24.35:472][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2024.08.24-10.24.35:516][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2024.08.24-10.24.35:517][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2024.08.24-10.24.35:550][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2024.08.24-10.24.35:563][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2024.08.24-10.24.35:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2024.08.24-10.24.35:586][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2024.08.24-10.24.35:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2024.08.24-10.24.35:605][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2024.08.24-10.24.35:629][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2024.08.24-10.24.35:641][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2024.08.24-10.24.35:652][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2024.08.24-10.24.35:664][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2024.08.24-10.24.35:664][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2024.08.24-10.24.35:714][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2024.08.24-10.24.35:873][  0]LogTextureFormatOodle: Display: Oodle Texture 2.9.0 init RDO Off
+[2024.08.24-10.24.36:121][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2024.08.24-10.24.36:121][  0]LogShaderCompilers: Guid format shader working directory is -18 characters bigger than the processId version (D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Shaders/WorkingDirectory/13968/).
+[2024.08.24-10.24.36:122][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/PC/AppData/Local/Temp/UnrealShaderWorkingDir/4F42731B43738095700B90A00D46790C/'.
+[2024.08.24-10.24.36:123][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2024.08.24-10.24.36:125][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2024.08.24-10.24.36:125][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2024.08.24-10.24.37:041][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2024.08.24-10.24.37:115][  0]LogDerivedDataCache: Loaded boot cache 0.07s 94MB C:/Users/PC/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2024.08.24-10.24.37:116][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/PC/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc
+[2024.08.24-10.24.37:116][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2024.08.24-10.24.37:119][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2024.08.24-10.24.37:120][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.08.24-10.24.37:121][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2024.08.24-10.24.37:137][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2024.08.24-10.24.37:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2024.08.24-10.24.37:140][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2024.08.24-10.24.37:171][  0]LogDerivedDataCache: Speed tests for C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.03 seconds
+[2024.08.24-10.24.37:171][  0]LogDerivedDataCache: Display: Performance to C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.70ms. RandomReadSpeed=162.85MBs, RandomWriteSpeed=54.08MBs. Assigned SpeedClass 'Local'
+[2024.08.24-10.24.37:222][  0]LogDerivedDataCache: Using Local data cache path C:/Users/PC/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2024.08.24-10.24.37:222][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2024.08.24-10.24.37:222][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2024.08.24-10.24.37:269][  0]LogSlate: Using FreeType 2.10.0
+[2024.08.24-10.24.37:270][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2024.08.24-10.24.37:479][  0]LogAssetRegistry: FAssetRegistry took 0.1015 seconds to start up
+[2024.08.24-10.24.37:787][  0]LogInit: Selected Device Profile: [Windows]
+[2024.08.24-10.24.37:788][  0]LogInit: Active device profile: [000002DE13DDCB00][000002DE124FC380 49] Windows
+[2024.08.24-10.24.37:788][  0]LogInit: Profiles: [000002DE13DDCB00][000002DE124FC380 49] Windows, [000002DE13D9E200][000002DE12504500 49] WindowsNoEditor, [000002DE13DDD900][000002DE12508680 49] WindowsServer, [000002DE13D9EF00][000002DE1493C800 49] WindowsClient, [000002DE13DDFC00][000002DE12500940 49] IOS, [000002DE13D9CF00][000002DE14940A80 49] iPadAir, [000002DE13DDFE00][000002DE14944BC0 49] iPadAir2, [000002DE13D34E00][000002DE14950E40 49] IPadPro, [000002DE13D34F00][000002DE14948E80 49] iPadAir3, [000002DE13D9FC00][000002DE14955000 49] iPadAir4, [000002DE13D37800][000002DE14959180 49] iPadMini2, [000002DE13D9F000][000002DE1495D300 49] iPadMini3, [000002DE13D37A00][000002DE14961480 49] iPadMini4, [000002DE13D9F800][000002DE14965600 49] iPadMini5, [000002DE13D70600][000002DE1496D8C0 49] iPhone6, [000002DE13D70700][000002DE14969900 49] iPodTouch6, [000002DE13DDE900][000002DE14975BC0 49] iPhone7, [000002DE13DDE600][000002DE14971C00 49] iPodTouch7, [000002DE13D70100][000002DE14978200 49] iPhone5S, [000002DE13D34700][000002DE1497C380 49] iPhone6Plus, [000002DE13D72500][000002DE14980500 49] iPhone6S, [000002DE13D35200][000002DE14984680 49] iPhone6SPlus, [000002DE13D73B00][000002DE14988800 49] iPhone7Plus, [000002DE13D37700][000002DE1498C980 49] iPhoneSE, [000002DE13DDEC00][000002DE14990B00 49] iPhone8, [000002DE13D34600][000002DE1494CC40 49] iPhone8Plus, [000002DE13DDE100][000002DE14994D80 49] iPhoneX, [000002DE13D36A00][000002DE14998EC0 49] iPhoneXS, [000002DE13DDF200][000002DE149A1040 49] iPhoneXSMax, [000002DE13D36F00][000002DE149A51C0 49] iPhoneXR, [000002DE13DDFB00][000002DE149A9340 49] iPhone11, [000002DE13D35D00][000002DE149AD4C0 49] iPhone11Pro, [000002DE13DDC600][000002DE149B1640 49] iPhone11ProMax, [000002DE13D36100][000002DE149B57C0 49] iPhoneSE2, [000002DE13DDFA00][000002DE149B9940 49] iPhone12Mini, [000002DE13D36200][000002DE149BDAC0 49] iPhone12, [000002DE13DDC700][000002DE149C00C0 49] iPhone12Pro, [000002DE13D36400][000002DE149C4240 49] iPhone12ProMax, [000002DE13DDD200][000002DE149C83C0 49] iPadPro105, [000002DE13D35900][000002DE149CC540 49] iPadPro129, [000002DE13DDC400][000002DE149D06C0 49] iPadPro97, [000002DE13D37C00][000002DE149D4840 49] iPadPro2_129, [000002DE13DDF900][000002DE149D89C0 49] iPad5, [000002DE13D34300][000002DE149DCB40 49] iPad6, [000002DE13DDDB00][000002DE149E0CC0 49] iPad7, [000002DE13D36500][000002DE1499CE00 49] iPad8, [000002DE13DDD700][000002DE149E4F40 49] iPadPro11, [000002DE13D37900][000002DE149E9080 49] iPadPro2_11, [000002DE13DDD400][000002DE149ED1C0 49] iPadPro3_129, [000002DE13D36300][000002DE149F5340 49] iPadPro4_129, [000002DE13DDF700][000002DE149F94C0 49] AppleTV, [000002DE13D37B00][000002DE149FD640 49] AppleTV4K, [000002DE13DDDD00][000002DE14A017C0 49] TVOS, [000002DE13D34800][000002DE14A05940 49] Mac, [000002DE13DDE400][000002DE14A09AC0 49] MacClient, [000002DE13D36D00][000002DE14A0C0C0 49] MacNoEditor, [000002DE13DDF500][000002DE14A10240 49] MacServer, [000002DE13D34A00][000002DE14A143C0 49] Linux, [000002DE13DDEB00][000002DE14A18540 49] LinuxAArch64, [000002DE13D36900][000002DE14A1C6C0 49] LinuxNoEditor, [000002DE13DDE500][000002DE14A20840 49] LinuxAArch64NoEditor, [000002DE13D34D00][000002DE14A249C0 49] LinuxClient, [000002DE13DDCD00][000002DE14A28B40 49] LinuxAArch64Client, [000002DE13D35F00][000002DE14A2CCC0 49] LinuxServer, [000002DE13DDF100][000002DE14A30E40 49] LinuxAArch64Server, [000002DE13D35100][000002DE149F0F80 49] Android, [000002DE13DDEE00][000002DE14A350C0 49] Android_Low, [000002DE13D37400][000002DE14A39200 49] Android_Mid, [000002DE13DDE200][000002DE14A3D340 49] Android_High, [000002DE13D35000][000002DE14A454C0 49] Android_Default, [000002DE13DDD300][000002DE14A49640 49] Android_Adreno4xx, [000002DE13D9E400][000002DE14A4D7C0 49] Android_Adreno5xx_Low, [000002DE13D71C00][000002DE14A51940 49] Android_Adreno5xx, [000002DE13D9F700][000002DE14A55AC0 49] Android_Adreno6xx, [000002DE13D72000][000002DE14A580C0 49] Android_Adreno6xx_Vulkan, [000002DE13D9C400][000002DE14A5C240 49] Android_Mali_T6xx, [000002DE13D70F00][000002DE14A603C0 49] Android_Mali_T7xx, [000002DE13D9DF00][000002DE14A64540 49] Android_Mali_T8xx, [000002DE13D71F00][000002DE14A686C0 49] Android_Mali_G71, [000002DE13D9E900][000002DE14A6C840 49] Android_Mali_G72, [000002DE13D72F00][000002DE14A709C0 49] Android_Mali_G72_Vulkan, [000002DE13D9FF00][000002DE14A74B40 49] Android_Mali_G76, [000002DE13D72200][000002DE14A78CC0 49] Android_Mali_G76_Vulkan, [000002DE13D9DE00][000002DE14A7CE40 49] Android_Mali_G77, [000002DE13D72C00][000002DE14A80FC0 49] Android_Mali_G77_Vulkan, [000002DE13D9F500][000002DE14A85140 49] Android_Mali_G78, [000002DE13D71300][000002DE14A41280 49] Android_Mali_G78_Vulkan, [000002DE13D9D400][000002DE14A893C0 49] Android_Mali_G710, [000002DE13D70500][000002DE14A8D500 49] Android_Mali_G710_Vulkan, [000002DE13D9C700][000002DE14AA5680 49] Android_Vulkan_SM5, [000002DE13D73F00][000002DE14AA9800 49] Android_PowerVR_G6xxx, [000002DE13D9E000][000002DE14AAD980 49] Android_PowerVR_GT7xxx, [000002DE13D73000][000002DE14AB1B00 49] Android_PowerVR_GE8xxx, [000002DE13D9F900][000002DE14AB4100 49] Android_PowerVR_GM9xxx, [000002DE13D72800][000002DE14AB8280 49] Android_PowerVR_GM9xxx_Vulkan, [000002DE13D9D700][000002DE14ABC400 49] Android_TegraK1, [000002DE13D71700][000002DE14AC0580 49] Android_Unknown_Vulkan, [000002DE13D9F400][000002DE14AC4700 49] Lumin, [000002DE13D73C00][000002DE14AC8880 49] Lumin_Desktop, [000002DE13D9CE00][000002DE14ACCA00 49] HoloLens, 
+[2024.08.24-10.24.38:106][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2024.08.24-10.24.38:106][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2024.08.24-10.24.38:106][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2024.08.24-10.24.38:107][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2024.08.24-10.24.38:107][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2024.08.24-10.24.38:156][  0]LogNetVersion: InsectHeaven 1.0.0, NetCL: 17155196, EngineNetVer: 17, GameNetVer: 0 (Checksum: 3375795940)
+[2024.08.24-10.24.38:902][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behaiour for '/Engine/MapTemplates/Sky/DaylightAmbientCubemap.DaylightAmbientCubemap', its maximum texture size has been explicitly set to 512.
+[2024.08.24-10.24.38:992][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2024.08.24-10.24.38:999][  0]LogUObjectArray: 17178 objects as part of root set at end of initial load.
+[2024.08.24-10.24.38:999][  0]LogUObjectAllocator: 4302048 out of 0 bytes used by permanent object pool.
+[2024.08.24-10.24.38:999][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2024.08.24-10.24.39:815][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 05C445334A816315D045A180B17C8498 | Instance: AD72FE44460A3F2C395AF5AD41D398F4 (DESKTOP-P2P91DD-13968).
+[2024.08.24-10.24.39:908][  0]LogPython: Using Python 3.7.7
+[2024.08.24-10.24.40:655][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2024.08.24-10.24.40:670][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2024.08.24-10.24.41:134][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.24-10.24.41:134][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.24-10.24.41:143][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.24-10.24.41:152][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.24-10.24.41:189][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.24-10.24.41:207][  0]LogUProjectInfo: Found projects:
+[2024.08.24-10.24.41:767][  0]LogOpenImageDenoise: OIDN starting up
+[2024.08.24-10.24.41:884][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2024.08.24-10.24.41:930][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.08.24-10.24.41:930][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2024.08.24-10.24.42:173][  0]LogCollectionManager: Loaded 0 collections in 0.002066 seconds
+[2024.08.24-10.24.42:187][  0]LogFileCache: Scanning file cache for directory 'D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Saved/Collections/' took 0.01s
+[2024.08.24-10.24.42:187][  0]LogFileCache: Scanning file cache for directory 'D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Developers/PC/Collections/' took 0.00s
+[2024.08.24-10.24.42:187][  0]LogFileCache: Scanning file cache for directory 'D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Collections/' took 0.00s
+[2024.08.24-10.24.42:232][  0]LogOcInput: OculusInput pre-init called
+[2024.08.24-10.24.42:585][  0]LogClass: Display: IntProperty FCharacter_2D::Name is not initialized properly. Module:InsectHeaven File:Table/DataStruct/Character_2D.h
+[2024.08.24-10.24.42:586][  0]LogClass: Display: IntProperty FCharacter_2D::ImageID is not initialized properly. Module:InsectHeaven File:Table/DataStruct/Character_2D.h
+[2024.08.24-10.24.42:586][  0]LogClass: Warning: ObjectProperty FDialogueClip::formerAction is not initialized properly. Module:InsectHeaven File:Library/Dialogue/DialogueEditToolWidget.h
+[2024.08.24-10.24.42:586][  0]LogClass: Warning: ObjectProperty FDialogueClip::nowAction is not initialized properly. Module:InsectHeaven File:Library/Dialogue/DialogueEditToolWidget.h
+[2024.08.24-10.24.42:586][  0]LogClass: Display: IntProperty FResource_Widget::PathFile is not initialized properly. Module:InsectHeaven File:Table/DataStruct/Resource_Widget.h
+[2024.08.24-10.24.42:586][  0]LogClass: Display: IntProperty FScript_Local::Test is not initialized properly. Module:InsectHeaven File:Table/DataStruct/Script_Local.h
+[2024.08.24-10.24.42:586][  0]LogClass: Display: 6 Uninitialized script struct members found including 2 object properties
+[2024.08.24-10.24.42:587][  0]LogAutomationTest: Warning: ObjectProperty FDialogueClip::formerAction is not initialized properly. Module:InsectHeaven File:Library/Dialogue/DialogueEditToolWidget.h
+[2024.08.24-10.24.42:587][  0]LogAutomationTest: Warning: ObjectProperty FDialogueClip::nowAction is not initialized properly. Module:InsectHeaven File:Library/Dialogue/DialogueEditToolWidget.h
+[2024.08.24-10.24.42:588][  0]LogEngine: Initializing Engine...
+[2024.08.24-10.24.42:592][  0]LogHMD: Failed to enumerate extensions. Please check that you have a valid OpenXR runtime installed.
+[2024.08.24-10.24.42:593][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2024.08.24-10.24.42:593][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2024.08.24-10.24.42:595][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2024.08.24-10.24.42:739][  0]LogInit: Initializing FReadOnlyCVARCache
+[2024.08.24-10.24.42:753][  0]LogAIModule: Creating AISystem for world Untitled
+[2024.08.24-10.24.42:755][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2024.08.24-10.24.42:764][  0]LogAudio: Display: Loading Default Audio Settings Objects...
+[2024.08.24-10.24.42:765][  0]LogAudio: Display: No default SoundConcurrencyObject specified (or failed to load).
+[2024.08.24-10.24.42:766][  0]LogAudio: Display: Audio Device Manager Initialized
+[2024.08.24-10.24.42:766][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.24.42:766][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.24.42:767][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.24.42:767][  0]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.24.42:767][  0]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.24.42:767][  0]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.24.42:767][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.24.42:832][  0]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.24.42:832][  0]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.24.42:927][  0]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.24.42:930][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.24.42:933][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.24.42:933][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.24.42:934][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.24.42:934][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.24.42:935][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.24.42:936][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.24.42:937][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.24.42:937][  0]LogInit: FAudioDevice initialized.
+[2024.08.24-10.24.42:937][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2024.08.24-10.24.42:937][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2024.08.24-10.24.43:027][  0]LogDerivedDataCache: Saved boot cache 0.09s 94MB C:/Users/PC/AppData/Local/UnrealEngine/4.27/DerivedDataCache/Boot.ddc.
+[2024.08.24-10.24.43:028][  0]LogInit: Texture streaming: Enabled
+[2024.08.24-10.24.43:064][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.27.2-18319896+++UE4+Release-4.27
+[2024.08.24-10.24.43:079][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2024.08.24-10.24.43:079][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={52A90105-431D-BE74-1C1F-2B8B531F31F4}
+[2024.08.24-10.24.43:079][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2024.08.24-10.24.43:087][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2024.08.24-10.24.43:122][  0]LogInit: Transaction tracking system initialized
+[2024.08.24-10.24.43:177][  0]BlueprintLog: New page: 에디터 로드
+[2024.08.24-10.24.43:333][  0]LocalizationService: 현지화 서비스가 비활성화되었습니다.
+[2024.08.24-10.24.43:405][  0]TimingProfiler: Initialize
+[2024.08.24-10.24.43:405][  0]TimingProfiler: OnSessionChanged
+[2024.08.24-10.24.43:405][  0]LoadingProfiler: Initialize
+[2024.08.24-10.24.43:405][  0]LoadingProfiler: OnSessionChanged
+[2024.08.24-10.24.43:405][  0]NetworkingProfiler: Initialize
+[2024.08.24-10.24.43:405][  0]NetworkingProfiler: OnSessionChanged
+[2024.08.24-10.24.43:405][  0]MemoryProfiler: Initialize
+[2024.08.24-10.24.43:405][  0]MemoryProfiler: OnSessionChanged
+[2024.08.24-10.24.43:657][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2024.08.24-10.24.43:657][  0]LogCook: Display: Mobile HDR setting 1
+[2024.08.24-10.24.44:090][  0]LogFileCache: Scanning file cache for directory 'D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/' took 0.02s
+[2024.08.24-10.24.44:409][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2024.08.24-10.24.44:416][  0]SourceControl: 소스 컨트롤이 꺼졌습니다.
+[2024.08.24-10.24.44:416][  0]LogUnrealEdMisc: Loading editor; pre map load, took 15.408
+[2024.08.24-10.24.44:416][  0]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Scene/EmptyMainLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.24.44:422][  0]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.24.44:424][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.24.44:424][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.24.44:424][  0]MapCheck: New page: 맵 체크
+[2024.08.24-10.24.44:424][  0]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.24.44:432][  0]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.24.44:438][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2024.08.24-10.24.44:443][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'EmptyMainLevel'.
+[2024.08.24-10.24.44:444][  0]LogAIModule: Creating AISystem for world EmptyMainLevel
+[2024.08.24-10.24.44:445][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.24.44:455][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2024.08.24-10.24.44:456][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.24.44:456][  0]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.312ms.
+[2024.08.24-10.24.44:456][  0]LogFileHelpers: Loading map 'EmptyMainLevel' took 0.040
+[2024.08.24-10.24.44:469][  0]LogUnrealEdMisc: Total Editor Startup Time, took 15.460
+[2024.08.24-10.24.44:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.24.44:656][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.24.44:662][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.24.44:668][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.24.44:685][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0091 seconds. Added 3870 classes and 945 folders.
+[2024.08.24-10.24.44:687][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.08.24-10.24.44:690][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.08.24-10.24.44:690][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:690][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.08.24-10.24.44:690][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/FP_FirstPerson.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:690][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/FP_FirstPerson.upack)
+[2024.08.24-10.24.44:690][  0]LogPakFile: OnPakFileMounted2Time == 0.000152
+[2024.08.24-10.24.44:691][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2024.08.24-10.24.44:691][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:691][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2024.08.24-10.24.44:691][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:691][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/FP_FirstPersonBP.upack)
+[2024.08.24-10.24.44:692][  0]LogPakFile: OnPakFileMounted2Time == 0.000146
+[2024.08.24-10.24.44:693][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2024.08.24-10.24.44:693][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:693][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2024.08.24-10.24.44:693][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/MobileStarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:693][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/MobileStarterContent.upack)
+[2024.08.24-10.24.44:694][  0]LogPakFile: OnPakFileMounted2Time == 0.000155
+[2024.08.24-10.24.44:695][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.08.24-10.24.44:695][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:695][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.08.24-10.24.44:695][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/StarterContent.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:695][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/StarterContent.upack)
+[2024.08.24-10.24.44:695][  0]LogPakFile: OnPakFileMounted2Time == 0.000145
+[2024.08.24-10.24.44:696][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2024.08.24-10.24.44:696][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:696][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2024.08.24-10.24.44:697][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_2DSideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:697][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_2DSideScroller.upack)
+[2024.08.24-10.24.44:697][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2024.08.24-10.24.44:698][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2024.08.24-10.24.44:698][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:698][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2024.08.24-10.24.44:698][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:698][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_2DSideScrollerBP.upack)
+[2024.08.24-10.24.44:698][  0]LogPakFile: OnPakFileMounted2Time == 0.000135
+[2024.08.24-10.24.44:699][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2024.08.24-10.24.44:699][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:700][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2024.08.24-10.24.44:700][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Flying.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:700][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Flying.upack)
+[2024.08.24-10.24.44:700][  0]LogPakFile: OnPakFileMounted2Time == 0.000137
+[2024.08.24-10.24.44:702][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2024.08.24-10.24.44:702][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:702][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2024.08.24-10.24.44:702][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_FlyingBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:702][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_FlyingBP.upack)
+[2024.08.24-10.24.44:702][  0]LogPakFile: OnPakFileMounted2Time == 0.000350
+[2024.08.24-10.24.44:703][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.08.24-10.24.44:704][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:704][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.08.24-10.24.44:705][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_HandheldARBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:705][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_HandheldARBP.upack)
+[2024.08.24-10.24.44:705][  0]LogPakFile: OnPakFileMounted2Time == 0.000300
+[2024.08.24-10.24.44:706][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2024.08.24-10.24.44:706][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:707][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2024.08.24-10.24.44:707][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Puzzle.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:707][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Puzzle.upack)
+[2024.08.24-10.24.44:707][  0]LogPakFile: OnPakFileMounted2Time == 0.000132
+[2024.08.24-10.24.44:708][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2024.08.24-10.24.44:709][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:709][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2024.08.24-10.24.44:709][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_PuzzleBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:709][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_PuzzleBP.upack)
+[2024.08.24-10.24.44:709][  0]LogPakFile: OnPakFileMounted2Time == 0.000159
+[2024.08.24-10.24.44:710][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.08.24-10.24.44:711][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:711][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.08.24-10.24.44:711][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Rolling.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:711][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Rolling.upack)
+[2024.08.24-10.24.44:711][  0]LogPakFile: OnPakFileMounted2Time == 0.000149
+[2024.08.24-10.24.44:712][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.08.24-10.24.44:712][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:712][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.08.24-10.24.44:712][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_RollingBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:713][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_RollingBP.upack)
+[2024.08.24-10.24.44:713][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2024.08.24-10.24.44:714][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.08.24-10.24.44:714][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:714][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.08.24-10.24.44:714][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_SideScroller.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:714][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_SideScroller.upack)
+[2024.08.24-10.24.44:714][  0]LogPakFile: OnPakFileMounted2Time == 0.000135
+[2024.08.24-10.24.44:715][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2024.08.24-10.24.44:716][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:716][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2024.08.24-10.24.44:716][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:716][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_SideScrollerBP.upack)
+[2024.08.24-10.24.44:716][  0]LogPakFile: OnPakFileMounted2Time == 0.000186
+[2024.08.24-10.24.44:717][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.08.24-10.24.44:717][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:717][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.08.24-10.24.44:717][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_ThirdPerson.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:718][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_ThirdPerson.upack)
+[2024.08.24-10.24.44:718][  0]LogPakFile: OnPakFileMounted2Time == 0.000132
+[2024.08.24-10.24.44:719][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2024.08.24-10.24.44:719][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:719][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2024.08.24-10.24.44:719][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:719][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_ThirdPersonBP.upack)
+[2024.08.24-10.24.44:719][  0]LogPakFile: OnPakFileMounted2Time == 0.000122
+[2024.08.24-10.24.44:720][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.08.24-10.24.44:720][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:720][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.08.24-10.24.44:720][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TopDown.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:720][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TopDown.upack)
+[2024.08.24-10.24.44:720][  0]LogPakFile: OnPakFileMounted2Time == 0.000143
+[2024.08.24-10.24.44:722][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.08.24-10.24.44:722][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:722][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.08.24-10.24.44:722][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TopDownBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:722][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TopDownBP.upack)
+[2024.08.24-10.24.44:722][  0]LogPakFile: OnPakFileMounted2Time == 0.000132
+[2024.08.24-10.24.44:723][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.08.24-10.24.44:723][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:723][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.08.24-10.24.44:723][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TwinStick.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:723][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TwinStick.upack)
+[2024.08.24-10.24.44:723][  0]LogPakFile: OnPakFileMounted2Time == 0.000135
+[2024.08.24-10.24.44:724][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2024.08.24-10.24.44:725][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:725][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2024.08.24-10.24.44:725][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_TwinStickBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:725][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_TwinStickBP.upack)
+[2024.08.24-10.24.44:725][  0]LogPakFile: OnPakFileMounted2Time == 0.000123
+[2024.08.24-10.24.44:726][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2024.08.24-10.24.44:726][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:726][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2024.08.24-10.24.44:726][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_Vehicle.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:726][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_Vehicle.upack)
+[2024.08.24-10.24.44:726][  0]LogPakFile: OnPakFileMounted2Time == 0.000120
+[2024.08.24-10.24.44:728][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2024.08.24-10.24.44:728][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:728][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2024.08.24-10.24.44:728][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VehicleAdv.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:728][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VehicleAdv.upack)
+[2024.08.24-10.24.44:728][  0]LogPakFile: OnPakFileMounted2Time == 0.000134
+[2024.08.24-10.24.44:729][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2024.08.24-10.24.44:729][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:729][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2024.08.24-10.24.44:729][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:729][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VehicleAdvBP.upack)
+[2024.08.24-10.24.44:730][  0]LogPakFile: OnPakFileMounted2Time == 0.000133
+[2024.08.24-10.24.44:731][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2024.08.24-10.24.44:731][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:731][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2024.08.24-10.24.44:731][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VehicleBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:731][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VehicleBP.upack)
+[2024.08.24-10.24.44:731][  0]LogPakFile: OnPakFileMounted2Time == 0.000131
+[2024.08.24-10.24.44:732][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2024.08.24-10.24.44:732][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2024.08.24-10.24.44:732][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2024.08.24-10.24.44:732][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: PakFile 'C:/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack' (chunk index -1, root 'root:/') mounted
+[2024.08.24-10.24.44:732][  0]LogShaderLibrary: Display: ShaderCodeLibraryPakFileMountedCallback: pending pak file info (ChunkID:-1 Root:root:/ File:C:/UE_4.27/FeaturePacks/TP_VirtualRealityBP.upack)
+[2024.08.24-10.24.44:732][  0]LogPakFile: OnPakFileMounted2Time == 0.000140
+[2024.08.24-10.24.44:811][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2024.08.24-10.24.44:812][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 2 classes and 0 folders.
+[2024.08.24-10.24.44:860][  0]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.08.24-10.24.44:862][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.08.24-10.24.44:864][  0]LogSlate: Took 0.001729 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2024.08.24-10.24.44:867][  0]LogSlate: Took 0.001703 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicBold.ttf' (4188K)
+[2024.08.24-10.24.44:867][  0]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2024.08.24-10.24.44:981][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2024.08.24-10.24.45:104][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2024.08.24-10.24.45:104][  0]LogLoad: (Engine Initialization) Total time: 16.10 seconds
+[2024.08.24-10.24.45:106][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2024.08.24-10.24.45:175][  0]LogAssetRegistry: Asset discovery search completed in 7.7898 seconds
+[2024.08.24-10.24.45:182][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2024.08.24-10.24.45:182][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2024.08.24-10.24.45:456][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/' took 0.31s
+[2024.08.24-10.25.17:514][ 83]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.08.24-10.25.17:560][ 83]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.08.24-10.30.22:267][249]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.30.22:298][249]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.30.22:298][249]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.30.22:307][249]LogWorld: UWorld::CleanupWorld for EmptyMainLevel, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.30.22:307][249]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.30.22:307][249]MapCheck: New page: 맵 체크
+[2024.08.24-10.30.22:307][249]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.30.22:313][249]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.30.22:343][249]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.08.24-10.30.22:347][249]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.30.22:348][249]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.30.22:351][249]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.30.22:374][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.30.22:399][249]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.30.22:399][249]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.41ms.
+[2024.08.24-10.30.22:399][249]LogFileHelpers: Loading map 'DialogueWorld' took 0.133
+[2024.08.24-10.30.22:408][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.30.22:408][249]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:30:22)
+[2024.08.24-10.30.22:410][249]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2024.08.24-10.30.22:413][249]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2024.08.24-10.30.22:414][249]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.30.22:415][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000851s)
+[2024.08.24-10.30.22:416][249]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.30.22:417][249]LogPlayLevel: PIE: World Init took: (0.001227s)
+[2024.08.24-10.30.22:417][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002486s)
+[2024.08.24-10.30.22:425][249]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.24-10.30.22:432][249]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.08.24-10.30.22:432][249]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.30.22:432][249]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.30.22:433][249]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.30.22:433][249]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.30.22:433][249]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.30.22:433][249]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.30.22:433][249]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.30.22:433][249]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.30.22:433][249]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.30.22:434][249]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.30.22:434][249]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.30.22:434][249]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.30.22:458][249]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.30.22:458][249]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.30.22:508][249]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.30.22:508][249]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.30.22:509][249]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.30.22:509][249]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.30.22:509][249]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.30.22:509][249]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.30.22:510][249]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.30.22:512][249]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.30.22:512][249]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.30.22:512][249]LogInit: FAudioDevice initialized.
+[2024.08.24-10.30.22:512][249]LogAudio: Display: Audio Device (ID: 2) registered with world 'DialogueWorld'.
+[2024.08.24-10.30.22:524][249]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.30.22:526][249]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.30.22
+[2024.08.24-10.30.22:526][249]LogWorld: Bringing up level for play took: 0.000603
+[2024.08.24-10.30.22:526][249]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2024.08.24-10.30.22:531][249]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2024.08.24-10.30.22:551][249]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.30.22:553][249]PIE: 에디터에서 플레이 총 시작 시간 0.148초입니다.
+[2024.08.24-10.30.22:581][250]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.08.24-10.30.25:395][571]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2024.08.24-10.30.25:396][571]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2024.08.24-10.30.25:396][571]LogUObjectGlobals: Warning: 'Texture2D /Game/Resource/2D/Character/Ch_00/Ch_0001.Ch_0001' 오브젝트를 찾는 데 실패했습니다.
+[2024.08.24-10.30.25:396][571]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2024.08.24-10.30.25:397][571]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2024.08.24-10.30.25:397][571]LogUObjectGlobals: Warning: 'Texture2D /Game/Resource/2D/Character/Ch_03/Ch_0301.Ch_0301' 오브젝트를 찾는 데 실패했습니다.
+[2024.08.24-10.30.29:456][ 58]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2024.08.24-10.30.29:456][ 58]LogLinker: Warning: '{FileName}': 파일을 찾을 수 없습니다. 로드에 실패했습니다.
+[2024.08.24-10.30.29:456][ 58]LogUObjectGlobals: Warning: 'Texture2D /Game/Resource/2D/Character/Ch_07/Ch_0701.Ch_0701' 오브젝트를 찾는 데 실패했습니다.
+[2024.08.24-10.30.37:760][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.30.37:761][ 25]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.30.37:763][ 25]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.30.37:764][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.30.37:782][ 25]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.30.37:784][ 25]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.30.37:788][ 25]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.30.37:789][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.30.37:791][ 25]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.30.37:795][ 25]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.30.37:797][ 25]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2024.08.24-10.30.37:806][ 26]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2024.08.24-10.30.39:055][174]LogEditorViewport: Clicking Background
+[2024.08.24-10.31.00:168][563]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2024.08.24-10.31.00:185][563]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.08.24-10.31.51:981][703]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.31.52:011][703]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.31.52:012][703]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.31.52:052][703]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.31.52:052][703]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.31.52:052][703]MapCheck: New page: 맵 체크
+[2024.08.24-10.31.52:052][703]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.31.52:057][703]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.31.52:059][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.24-10.31.52:063][703]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.31.52:064][703]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.31.52:067][703]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.31.52:090][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.31.52:115][703]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.31.52:115][703]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.4ms.
+[2024.08.24-10.31.52:116][703]LogFileHelpers: Loading map 'DialogueWorld' took 0.135
+[2024.08.24-10.31.52:128][703]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.31.52:128][703]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:31:52)
+[2024.08.24-10.31.52:128][703]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.31.52:129][703]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001074s)
+[2024.08.24-10.31.52:130][703]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.31.52:130][703]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2024.08.24-10.31.52:131][703]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002506s)
+[2024.08.24-10.31.52:139][703]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.08.24-10.31.52:139][703]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.08.24-10.31.52:139][703]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.31.52:140][703]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.31.52:140][703]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.31.52:140][703]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.31.52:140][703]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.31.52:140][703]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.31.52:140][703]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.31.52:140][703]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.31.52:141][703]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.31.52:141][703]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.31.52:141][703]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.31.52:141][703]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.31.52:164][703]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.31.52:165][703]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.31.52:216][703]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.31.52:217][703]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.31.52:217][703]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.31.52:217][703]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.31.52:219][703]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.31.52:219][703]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.31.52:219][703]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.31.52:223][703]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.31.52:223][703]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.31.52:223][703]LogInit: FAudioDevice initialized.
+[2024.08.24-10.31.52:223][703]LogAudio: Display: Audio Device (ID: 3) registered with world 'DialogueWorld'.
+[2024.08.24-10.31.52:242][703]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.31.52:243][703]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.31.52
+[2024.08.24-10.31.52:243][703]LogWorld: Bringing up level for play took: 0.000683
+[2024.08.24-10.31.52:243][703]LogOnline: OSS: Creating online subsystem instance for: :Context_2
+[2024.08.24-10.31.52:248][703]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.31.52:249][703]PIE: 에디터에서 플레이 총 시작 시간 0.125초입니다.
+[2024.08.24-10.31.52:267][704]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.08.24-10.32.03:725][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.32.03:725][ 55]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.32.03:725][ 55]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.32.03:726][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.32.03:741][ 55]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.32.03:743][ 55]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.32.03:747][ 55]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.32.03:748][ 55]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.32.03:749][ 55]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.32.03:754][ 55]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.32.03:755][ 55]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.32.03:805][ 61]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2024.08.24-10.32.05:002][204]LogEditorViewport: Clicking Background
+[2024.08.24-10.33.54:255][594]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.33.54:282][594]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.33.54:282][594]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.33.54:321][594]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.33.54:322][594]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.33.54:322][594]MapCheck: New page: 맵 체크
+[2024.08.24-10.33.54:322][594]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.33.54:327][594]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.33.54:329][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.08.24-10.33.54:333][594]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.33.54:334][594]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.33.54:337][594]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.33.54:358][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.24-10.33.54:382][594]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.33.54:383][594]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.288ms.
+[2024.08.24-10.33.54:383][594]LogFileHelpers: Loading map 'DialogueWorld' took 0.127
+[2024.08.24-10.33.54:391][594]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.33.54:391][594]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:33:54)
+[2024.08.24-10.33.54:391][594]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.33.54:393][594]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001355s)
+[2024.08.24-10.33.54:394][594]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.33.54:394][594]LogPlayLevel: PIE: World Init took: (0.001239s)
+[2024.08.24-10.33.54:394][594]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.003178s)
+[2024.08.24-10.33.54:402][594]LogUObjectHash: Compacting FUObjectHashTables data took   0.79ms
+[2024.08.24-10.33.54:402][594]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.08.24-10.33.54:402][594]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.33.54:403][594]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.33.54:403][594]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.33.54:403][594]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.33.54:403][594]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.33.54:403][594]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.33.54:403][594]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.33.54:403][594]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.33.54:404][594]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.33.54:404][594]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.33.54:404][594]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.33.54:404][594]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.33.54:427][594]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.33.54:427][594]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.33.54:478][594]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.33.54:478][594]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.33.54:478][594]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.33.54:478][594]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.33.54:479][594]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.33.54:479][594]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.33.54:479][594]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.33.54:482][594]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.33.54:482][594]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.33.54:482][594]LogInit: FAudioDevice initialized.
+[2024.08.24-10.33.54:482][594]LogAudio: Display: Audio Device (ID: 4) registered with world 'DialogueWorld'.
+[2024.08.24-10.33.54:499][594]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.33.54:500][594]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.33.54
+[2024.08.24-10.33.54:500][594]LogWorld: Bringing up level for play took: 0.000823
+[2024.08.24-10.33.54:501][594]LogOnline: OSS: Creating online subsystem instance for: :Context_3
+[2024.08.24-10.33.54:506][594]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.33.54:507][594]PIE: 에디터에서 플레이 총 시작 시간 0.119초입니다.
+[2024.08.24-10.33.54:525][595]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.34.15:955][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.34.15:955][104]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.34.15:956][104]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.34.15:956][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.34.15:969][104]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.34.15:971][104]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.34.15:976][104]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.34.15:976][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.34.15:978][104]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.34.15:993][104]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.34.15:994][104]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.08.24-10.34.16:013][105]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.08.24-10.36.08:076][103]Cmd: TRANSACTION UNDO
+[2024.08.24-10.36.08:076][103]LogEditorTransaction: Undo Class 편집
+[2024.08.24-10.38.10:689][473]Cmd: TRANSACTION UNDO
+[2024.08.24-10.38.10:689][473]LogEditorTransaction: Undo Class 편집
+[2024.08.24-10.38.11:489][521]Cmd: TRANSACTION UNDO
+[2024.08.24-10.38.11:489][521]LogEditorTransaction: Undo Class 편집
+[2024.08.24-10.38.36:676][ 41]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.38.36:704][ 41]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.38.36:704][ 41]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.38.36:709][ 41]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.38.36:710][ 41]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.38.36:710][ 41]MapCheck: New page: 맵 체크
+[2024.08.24-10.38.36:710][ 41]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.38.36:724][ 41]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.38.36:738][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2024.08.24-10.38.36:742][ 41]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.38.36:743][ 41]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.38.36:746][ 41]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.38.36:770][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.24-10.38.36:799][ 41]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.38.36:800][ 41]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.315ms.
+[2024.08.24-10.38.36:800][ 41]LogFileHelpers: Loading map 'DialogueWorld' took 0.123
+[2024.08.24-10.38.36:811][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.38.36:811][ 41]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:38:36)
+[2024.08.24-10.38.36:811][ 41]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.38.36:812][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000738s)
+[2024.08.24-10.38.36:813][ 41]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.38.36:813][ 41]LogPlayLevel: PIE: World Init took: (0.000967s)
+[2024.08.24-10.38.36:813][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002036s)
+[2024.08.24-10.38.36:822][ 41]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.08.24-10.38.36:822][ 41]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.08.24-10.38.36:822][ 41]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.38.36:822][ 41]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.38.36:823][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.38.36:823][ 41]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.38.36:823][ 41]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.38.36:823][ 41]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.38.36:823][ 41]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.38.36:823][ 41]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.38.36:823][ 41]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.38.36:824][ 41]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.38.36:824][ 41]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.38.36:824][ 41]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.38.36:848][ 41]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.38.36:848][ 41]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.38.36:900][ 41]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.38.36:900][ 41]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.38.36:900][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.38.36:901][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.38.36:901][ 41]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.38.36:901][ 41]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.38.36:901][ 41]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.38.36:905][ 41]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.38.36:905][ 41]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.38.36:905][ 41]LogInit: FAudioDevice initialized.
+[2024.08.24-10.38.36:905][ 41]LogAudio: Display: Audio Device (ID: 5) registered with world 'DialogueWorld'.
+[2024.08.24-10.38.36:918][ 41]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.38.36:919][ 41]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.38.36
+[2024.08.24-10.38.36:920][ 41]LogWorld: Bringing up level for play took: 0.000626
+[2024.08.24-10.38.36:920][ 41]LogOnline: OSS: Creating online subsystem instance for: :Context_4
+[2024.08.24-10.38.36:925][ 41]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.38.36:926][ 41]PIE: 에디터에서 플레이 총 시작 시간 0.119초입니다.
+[2024.08.24-10.38.36:945][ 42]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.24-10.38.50:394][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.38.50:394][540]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.38.50:395][540]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.38.50:395][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.38.50:407][540]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.38.50:409][540]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.38.50:414][540]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.38.50:414][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.38.50:416][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.38.50:420][540]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.38.50:421][540]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.24-10.38.50:448][543]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.08.24-10.38.52:194][750]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.38.52:219][750]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.38.52:219][750]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.38.52:262][750]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.38.52:262][750]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.38.52:262][750]MapCheck: New page: 맵 체크
+[2024.08.24-10.38.52:262][750]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.38.52:266][750]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.38.52:269][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.08.24-10.38.52:272][750]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.38.52:273][750]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.38.52:276][750]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.38.52:299][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.24-10.38.52:324][750]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.38.52:324][750]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.282ms.
+[2024.08.24-10.38.52:325][750]LogFileHelpers: Loading map 'DialogueWorld' took 0.131
+[2024.08.24-10.38.52:332][750]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.38.52:333][750]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:38:52)
+[2024.08.24-10.38.52:333][750]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.38.52:333][750]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000750s)
+[2024.08.24-10.38.52:334][750]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.38.52:335][750]LogPlayLevel: PIE: World Init took: (0.000945s)
+[2024.08.24-10.38.52:335][750]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002021s)
+[2024.08.24-10.38.52:342][750]LogUObjectHash: Compacting FUObjectHashTables data took   0.82ms
+[2024.08.24-10.38.52:343][750]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.38.52:343][750]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.38.52:343][750]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.38.52:344][750]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.38.52:344][750]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.38.52:344][750]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.38.52:344][750]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.38.52:366][750]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.38.52:366][750]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.38.52:416][750]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.38.52:416][750]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.38.52:416][750]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.38.52:416][750]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.38.52:416][750]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.38.52:417][750]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.38.52:417][750]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.38.52:420][750]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.38.52:421][750]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.38.52:421][750]LogInit: FAudioDevice initialized.
+[2024.08.24-10.38.52:421][750]LogAudio: Display: Audio Device (ID: 6) registered with world 'DialogueWorld'.
+[2024.08.24-10.38.52:440][750]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.38.52:441][750]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.38.52
+[2024.08.24-10.38.52:441][750]LogWorld: Bringing up level for play took: 0.000656
+[2024.08.24-10.38.52:441][750]LogOnline: OSS: Creating online subsystem instance for: :Context_5
+[2024.08.24-10.38.52:448][750]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.38.52:449][750]PIE: 에디터에서 플레이 총 시작 시간 0.119초입니다.
+[2024.08.24-10.38.52:466][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.24-10.39.25:364][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.39.25:364][613]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.39.25:364][613]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.39.25:365][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.39.25:379][613]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.39.25:381][613]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.39.25:386][613]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.39.25:388][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.39.25:390][613]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.39.25:394][613]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.39.25:398][613]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2024.08.24-10.39.25:442][618]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2024.08.24-10.41.50:112][823]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.41.50:141][823]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.41.50:141][823]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.41.50:181][823]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.41.50:181][823]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.41.50:181][823]MapCheck: New page: 맵 체크
+[2024.08.24-10.41.50:181][823]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.41.50:192][823]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.41.50:202][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.98ms
+[2024.08.24-10.41.50:206][823]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.41.50:206][823]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.41.50:209][823]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.41.50:233][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.24-10.41.50:258][823]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.41.50:259][823]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.277ms.
+[2024.08.24-10.41.50:259][823]LogFileHelpers: Loading map 'DialogueWorld' took 0.148
+[2024.08.24-10.41.50:273][823]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.41.50:273][823]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:41:50)
+[2024.08.24-10.41.50:273][823]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.41.50:274][823]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000851s)
+[2024.08.24-10.41.50:275][823]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.41.50:275][823]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2024.08.24-10.41.50:275][823]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002214s)
+[2024.08.24-10.41.50:283][823]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.08.24-10.41.50:284][823]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.08.24-10.41.50:284][823]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.41.50:284][823]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.41.50:284][823]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.41.50:284][823]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.41.50:284][823]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.41.50:284][823]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.41.50:285][823]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.41.50:285][823]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.41.50:285][823]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.41.50:285][823]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.41.50:285][823]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.41.50:285][823]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.41.50:309][823]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.41.50:309][823]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.41.50:360][823]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.41.50:360][823]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.41.50:360][823]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.41.50:360][823]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.41.50:361][823]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.41.50:361][823]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.41.50:361][823]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.41.50:364][823]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.41.50:364][823]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.41.50:364][823]LogInit: FAudioDevice initialized.
+[2024.08.24-10.41.50:364][823]LogAudio: Display: Audio Device (ID: 7) registered with world 'DialogueWorld'.
+[2024.08.24-10.41.50:377][823]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.41.50:378][823]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.41.50
+[2024.08.24-10.41.50:378][823]LogWorld: Bringing up level for play took: 0.000358
+[2024.08.24-10.41.50:378][823]LogOnline: OSS: Creating online subsystem instance for: :Context_6
+[2024.08.24-10.41.50:383][823]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.41.50:384][823]PIE: 에디터에서 플레이 총 시작 시간 0.114초입니다.
+[2024.08.24-10.41.50:406][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2024.08.24-10.47.53:184][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.47.53:184][990]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.47.53:184][990]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.47.53:184][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.47.53:198][990]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.47.53:200][990]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.47.53:204][990]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.47.53:204][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.47.53:206][990]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.47.53:212][990]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.47.53:214][990]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
+[2024.08.24-10.47.53:258][995]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2024.08.24-10.47.54:550][148]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.47.54:578][148]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.47.54:578][148]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.47.54:611][148]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.47.54:611][148]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.47.54:611][148]MapCheck: New page: 맵 체크
+[2024.08.24-10.47.54:611][148]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.47.54:617][148]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.47.54:619][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.08.24-10.47.54:622][148]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.47.54:623][148]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.47.54:626][148]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.47.54:650][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.08.24-10.47.54:679][148]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.47.54:679][148]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.316ms.
+[2024.08.24-10.47.54:680][148]LogFileHelpers: Loading map 'DialogueWorld' took 0.130
+[2024.08.24-10.47.54:691][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.47.54:691][148]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:47:54)
+[2024.08.24-10.47.54:692][148]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.47.54:693][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000741s)
+[2024.08.24-10.47.54:693][148]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.47.54:694][148]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2024.08.24-10.47.54:694][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002186s)
+[2024.08.24-10.47.54:702][148]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2024.08.24-10.47.54:703][148]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.47.54:703][148]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.47.54:703][148]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.47.54:704][148]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.47.54:704][148]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.47.54:704][148]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.47.54:704][148]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.47.54:727][148]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.47.54:728][148]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.47.54:777][148]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.47.54:778][148]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.47.54:778][148]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.47.54:778][148]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.47.54:778][148]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.47.54:778][148]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.47.54:778][148]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.47.54:781][148]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.47.54:781][148]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.47.54:781][148]LogInit: FAudioDevice initialized.
+[2024.08.24-10.47.54:781][148]LogAudio: Display: Audio Device (ID: 8) registered with world 'DialogueWorld'.
+[2024.08.24-10.47.54:793][148]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.47.54:794][148]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.47.54
+[2024.08.24-10.47.54:794][148]LogWorld: Bringing up level for play took: 0.000386
+[2024.08.24-10.47.54:795][148]LogOnline: OSS: Creating online subsystem instance for: :Context_7
+[2024.08.24-10.47.54:799][148]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.47.54:800][148]PIE: 에디터에서 플레이 총 시작 시간 0.112초입니다.
+[2024.08.24-10.47.54:819][149]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.48.05:713][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.48.05:714][452]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.48.05:714][452]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.48.05:714][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.48.05:727][452]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.48.05:728][452]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.48.05:733][452]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.48.05:733][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.48.05:735][452]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.48.05:739][452]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.48.05:740][452]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2024.08.24-10.48.05:793][458]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2024.08.24-10.48.06:373][526]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.48.06:400][526]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.48.06:400][526]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.48.06:431][526]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.48.06:431][526]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.48.06:431][526]MapCheck: New page: 맵 체크
+[2024.08.24-10.48.06:431][526]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.48.06:436][526]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.48.06:438][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.08.24-10.48.06:442][526]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.48.06:442][526]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.48.06:445][526]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.48.06:468][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.24-10.48.06:494][526]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.48.06:494][526]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.28ms.
+[2024.08.24-10.48.06:495][526]LogFileHelpers: Loading map 'DialogueWorld' took 0.121
+[2024.08.24-10.48.06:503][526]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.48.06:504][526]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:48:06)
+[2024.08.24-10.48.06:504][526]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.48.06:505][526]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000771s)
+[2024.08.24-10.48.06:505][526]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.48.06:506][526]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2024.08.24-10.48.06:506][526]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.001924s)
+[2024.08.24-10.48.06:513][526]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2024.08.24-10.48.06:514][526]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.48.06:514][526]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.48.06:515][526]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.48.06:515][526]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.48.06:515][526]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.48.06:515][526]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.48.06:515][526]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.48.06:538][526]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.48.06:539][526]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.48.06:590][526]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.48.06:590][526]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.48.06:590][526]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.48.06:590][526]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.48.06:591][526]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.48.06:591][526]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.48.06:591][526]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.48.06:594][526]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.48.06:594][526]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.48.06:594][526]LogInit: FAudioDevice initialized.
+[2024.08.24-10.48.06:594][526]LogAudio: Display: Audio Device (ID: 9) registered with world 'DialogueWorld'.
+[2024.08.24-10.48.06:611][526]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.48.06:611][526]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.48.06
+[2024.08.24-10.48.06:612][526]LogWorld: Bringing up level for play took: 0.000553
+[2024.08.24-10.48.06:612][526]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2024.08.24-10.48.06:617][526]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.48.06:618][526]PIE: 에디터에서 플레이 총 시작 시간 0.118초입니다.
+[2024.08.24-10.48.06:635][527]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2024.08.24-10.48.27:423][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.48.27:424][  0]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.48.27:424][  0]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.48.27:424][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.48.27:436][  0]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.48.27:438][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.48.27:442][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.48.27:442][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.48.27:444][  0]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.48.27:450][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.08.24-10.48.27:485][  4]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2024.08.24-10.48.41:300][553]AssetReimport: New page: 오후 7:48:41 에서의 파일 시스템 변경 세부사항
+[2024.08.24-10.48.41:372][553]AssetReimport: 'D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/NewDialogue2.json' 변경이 완료되었습니다.
+[2024.08.24-10.48.41:387][553]LogSlate: Took 0.000263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2024.08.24-10.48.41:389][553]LogSlate: Took 0.001452 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/NanumGothicExtraBold.ttf' (4074K)
+[2024.08.24-10.48.43:783][840]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.24-10.48.43:798][840]LogSlate: Window '메시지 로그' being destroyed
+[2024.08.24-10.48.45:196][  5]AssetReimport: New page: 처리중인 소스 콘텐츠 변경사항 오전 4:48:45
+[2024.08.24-10.49.56:073][364]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.49.56:098][364]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.49.56:098][364]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.49.56:131][364]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.49.56:131][364]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.49.56:131][364]MapCheck: New page: 맵 체크
+[2024.08.24-10.49.56:131][364]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.49.56:136][364]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.49.56:139][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2024.08.24-10.49.56:144][364]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.49.56:145][364]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.49.56:148][364]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.49.56:172][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.49.56:197][364]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.49.56:197][364]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.282ms.
+[2024.08.24-10.49.56:198][364]LogFileHelpers: Loading map 'DialogueWorld' took 0.125
+[2024.08.24-10.49.56:208][364]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.49.56:208][364]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:49:56)
+[2024.08.24-10.49.56:209][364]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.49.56:209][364]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000804s)
+[2024.08.24-10.49.56:210][364]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.49.56:211][364]LogPlayLevel: PIE: World Init took: (0.000992s)
+[2024.08.24-10.49.56:211][364]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002083s)
+[2024.08.24-10.49.56:218][364]LogUObjectHash: Compacting FUObjectHashTables data took   0.90ms
+[2024.08.24-10.49.56:219][364]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2024.08.24-10.49.56:219][364]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.49.56:219][364]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.49.56:219][364]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.49.56:219][364]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.49.56:219][364]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.49.56:219][364]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.49.56:220][364]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.49.56:220][364]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.49.56:220][364]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.49.56:220][364]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.49.56:221][364]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.49.56:221][364]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.49.56:245][364]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.49.56:245][364]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.49.56:295][364]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.49.56:295][364]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.49.56:295][364]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.49.56:295][364]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.49.56:296][364]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.49.56:296][364]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.49.56:296][364]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.49.56:298][364]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.49.56:298][364]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.49.56:299][364]LogInit: FAudioDevice initialized.
+[2024.08.24-10.49.56:299][364]LogAudio: Display: Audio Device (ID: 10) registered with world 'DialogueWorld'.
+[2024.08.24-10.49.56:311][364]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.49.56:313][364]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.49.56
+[2024.08.24-10.49.56:313][364]LogWorld: Bringing up level for play took: 0.001043
+[2024.08.24-10.49.56:314][364]LogOnline: OSS: Creating online subsystem instance for: :Context_9
+[2024.08.24-10.49.56:319][364]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.49.56:319][364]PIE: 에디터에서 플레이 총 시작 시간 0.114초입니다.
+[2024.08.24-10.49.56:336][365]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.08.24-10.50.09:464][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.50.09:464][835]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.50.09:464][835]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.50.09:464][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.50.09:481][835]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.50.09:482][835]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.50.09:487][835]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.50.09:488][835]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.50.09:489][835]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.50.09:494][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.50.09:496][835]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.24-10.50.09:531][839]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.08.24-10.50.40:316][462]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.50.40:348][462]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.50.40:348][462]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.50.40:371][462]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.50.40:371][462]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.50.40:371][462]MapCheck: New page: 맵 체크
+[2024.08.24-10.50.40:371][462]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.50.40:376][462]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.50.40:378][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2024.08.24-10.50.40:382][462]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.50.40:382][462]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.50.40:386][462]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.50.40:409][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.24-10.50.40:433][462]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.50.40:434][462]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.329ms.
+[2024.08.24-10.50.40:434][462]LogFileHelpers: Loading map 'DialogueWorld' took 0.118
+[2024.08.24-10.50.40:445][462]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.50.40:445][462]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:50:40)
+[2024.08.24-10.50.40:446][462]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.50.40:446][462]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000706s)
+[2024.08.24-10.50.40:447][462]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.50.40:448][462]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2024.08.24-10.50.40:448][462]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.001995s)
+[2024.08.24-10.50.40:456][462]LogUObjectHash: Compacting FUObjectHashTables data took   0.81ms
+[2024.08.24-10.50.40:456][462]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2024.08.24-10.50.40:456][462]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.50.40:456][462]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.50.40:457][462]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.50.40:457][462]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.50.40:457][462]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.50.40:457][462]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.50.40:457][462]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.50.40:457][462]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.50.40:457][462]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.50.40:458][462]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.50.40:458][462]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.50.40:458][462]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.50.40:482][462]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.50.40:482][462]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.50.40:531][462]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.50.40:532][462]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.50.40:532][462]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.50.40:532][462]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.50.40:532][462]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.50.40:532][462]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.50.40:532][462]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.50.40:535][462]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.50.40:535][462]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.50.40:535][462]LogInit: FAudioDevice initialized.
+[2024.08.24-10.50.40:536][462]LogAudio: Display: Audio Device (ID: 11) registered with world 'DialogueWorld'.
+[2024.08.24-10.50.40:547][462]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.50.40:548][462]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.50.40
+[2024.08.24-10.50.40:549][462]LogWorld: Bringing up level for play took: 0.000496
+[2024.08.24-10.50.40:549][462]LogOnline: OSS: Creating online subsystem instance for: :Context_10
+[2024.08.24-10.50.40:555][462]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.50.40:556][462]PIE: 에디터에서 플레이 총 시작 시간 0.114초입니다.
+[2024.08.24-10.50.40:573][463]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2024.08.24-10.51.56:858][454]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/DataTable/Character_2D.Character_2D
+[2024.08.24-10.52.42:521][758]Cmd: TRANSACTION UNDO
+[2024.08.24-10.52.42:522][758]LogEditorTransaction: Undo 데이터 테이블 행 추가
+[2024.08.24-10.53.07:386][587]LogSlate: Window 'Character_2D' being destroyed
+[2024.08.24-10.53.07:401][587]LogSlate: Window 'Character_2D' being destroyed
+[2024.08.24-10.53.11:278][ 16]LogAssetEditorSubsystem: Opening Asset editor for DataTable /Game/DataTable/BasePath_Image.BasePath_Image
+[2024.08.24-10.53.49:239][257]LogEditorClassViewer: Warning: Class /Engine/Tutorial/InWorldBlueprintEditing/TutorialAssets/IWBE_Blutility.IWBE_Blutility_C has parent /Script/Blutility.PlacedEditorUtilityBase, but this parent is not found. The Class will not be shown in ClassViewer.
+[2024.08.24-10.54.12:723][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.54.12:724][934]LogWorld: BeginTearingDown for /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.54.12:724][934]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.54.12:724][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.54.12:741][934]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.08.24-10.54.12:743][934]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.54.12:748][934]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.08.24-10.54.12:748][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.54.12:750][934]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2024.08.24-10.54.12:757][934]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2024.08.24-10.54.12:785][937]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.08.24-10.54.14:061][ 88]Cmd: MAP LOAD FILE="D:/Users/PC/Documents/GitHub/NewNewInsectHeaven/InsectHeaven/Content/Dialogue/DialogueWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2024.08.24-10.54.14:085][ 88]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.54.14:086][ 88]LoadErrors: New page: 맵 로드 중: DialogueWorld.umap
+[2024.08.24-10.54.14:111][ 88]LogWorld: UWorld::CleanupWorld for DialogueWorld, bSessionEnded=true, bCleanupResources=true
+[2024.08.24-10.54.14:111][ 88]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.08.24-10.54.14:111][ 88]MapCheck: New page: 맵 체크
+[2024.08.24-10.54.14:111][ 88]LightingResults: New page: 라이팅 빌드
+[2024.08.24-10.54.14:116][ 88]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.08.24-10.54.14:119][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2024.08.24-10.54.14:124][ 88]LogAudio: Display: Audio Device (ID: 1) registered with world 'DialogueWorld'.
+[2024.08.24-10.54.14:125][ 88]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.54.14:127][ 88]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2024.08.24-10.54.14:151][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.08.24-10.54.14:173][ 88]Cmd: MAP CHECKDEP NOCLEARLOG
+[2024.08.24-10.54.14:174][ 88]MapCheck: 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 0.292ms.
+[2024.08.24-10.54.14:174][ 88]LogFileHelpers: Loading map 'DialogueWorld' took 0.113
+[2024.08.24-10.54.14:182][ 88]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.08.24-10.54.14:182][ 88]PIE: New page: PIE 세션: DialogueWorld (2024. 8. 25. 오전 4:54:14)
+[2024.08.24-10.54.14:182][ 88]LogPlayLevel: Creating play world package: /Game/Dialogue/UEDPIE_0_DialogueWorld
+[2024.08.24-10.54.14:183][ 88]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000936s)
+[2024.08.24-10.54.14:184][ 88]LogAIModule: Creating AISystem for world DialogueWorld
+[2024.08.24-10.54.14:184][ 88]LogPlayLevel: PIE: World Init took: (0.001049s)
+[2024.08.24-10.54.14:184][ 88]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Dialogue/DialogueWorld.DialogueWorld to /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld (0.002340s)
+[2024.08.24-10.54.14:192][ 88]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2024.08.24-10.54.14:193][ 88]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2024.08.24-10.54.14:193][ 88]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.08.24-10.54.14:193][ 88]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.08.24-10.54.14:193][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.08.24-10.54.14:193][ 88]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.08.24-10.54.14:193][ 88]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.08.24-10.54.14:193][ 88]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.08.24-10.54.14:194][ 88]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.08.24-10.54.14:194][ 88]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.08.24-10.54.14:194][ 88]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.08.24-10.54.14:194][ 88]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.08.24-10.54.14:194][ 88]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.08.24-10.54.14:194][ 88]LogAudioMixer: Display: Initializing audio mixer.
+[2024.08.24-10.54.14:217][ 88]LogAudioMixer: Display: 0: FrontLeft
+[2024.08.24-10.54.14:217][ 88]LogAudioMixer: Display: 1: FrontRight
+[2024.08.24-10.54.14:267][ 88]LogAudioMixer: Display: Using Audio Device 스피커(Realtek(R) Audio)
+[2024.08.24-10.54.14:267][ 88]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.08.24-10.54.14:267][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.08.24-10.54.14:268][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.08.24-10.54.14:268][ 88]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2024.08.24-10.54.14:268][ 88]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2024.08.24-10.54.14:268][ 88]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2024.08.24-10.54.14:272][ 88]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2024.08.24-10.54.14:272][ 88]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2024.08.24-10.54.14:272][ 88]LogInit: FAudioDevice initialized.
+[2024.08.24-10.54.14:272][ 88]LogAudio: Display: Audio Device (ID: 12) registered with world 'DialogueWorld'.
+[2024.08.24-10.54.14:291][ 88]LogLoad: Game class is 'IH_GameMode_DialgueTool'
+[2024.08.24-10.54.14:292][ 88]LogWorld: Bringing World /Game/Dialogue/UEDPIE_0_DialogueWorld.DialogueWorld up for play (max tick rate 0) at 2024.08.24-19.54.14
+[2024.08.24-10.54.14:292][ 88]LogWorld: Bringing up level for play took: 0.000609
+[2024.08.24-10.54.14:292][ 88]LogOnline: OSS: Creating online subsystem instance for: :Context_11
+[2024.08.24-10.54.14:297][ 88]PIE: 서버가 로그인했습니다.
+[2024.08.24-10.54.14:298][ 88]PIE: 에디터에서 플레이 총 시작 시간 0.12초입니다.
+[2024.08.24-10.54.14:324][ 89]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms

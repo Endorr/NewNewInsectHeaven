@@ -1,4 +1,4 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\PC\Documents\GitHub\InsectHeaven).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Users\PC\Documents\GitHub\NewNewInsectHeaven).
   
   처리되지 않은 예외: System.ArgumentException: Path fragment '"InsectHeaven/Content/Resource/2D/Character/Ch_00/\352\270\264\354\202\254\353\271\204_\352\270\260\353\263\270.uasset"' contains invalid directory separators.
      위치: Tools.DotNETCommon.FileSystemReference.CombineStrings(DirectoryReference BaseDirectory, String[] Fragments) 파일 D:\Build\++UE4\Sync\Engine\Saved\CsTools\Engine\Source\Programs\DotNETCommon\DotNETUtilities\FileSystemReference.cs:줄 90
@@ -15,4 +15,5 @@
      위치: System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot)
      위치: System.Threading.Tasks.Task.ExecuteEntry(Boolean bPreventDoubleExecution)
      위치: System.Threading.ThreadPoolWorkQueue.Dispatch()
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: "C:\UE_4.27\Engine\Build\BatchFiles\Build.bat InsectHeavenEditor Win64 DebugGame -Project="D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\InsectHeaven.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -532462766).
+  Waiting for 'git status' command to complete
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(45,5): error MSB3073: "C:\UE_4.27\Engine\Build\BatchFiles\Build.bat InsectHeavenEditor Win64 DebugGame -Project="D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\InsectHeaven.uproject" -WaitMutex -FromMsBuild" 명령이 종료되었습니다(코드: -532462766).
