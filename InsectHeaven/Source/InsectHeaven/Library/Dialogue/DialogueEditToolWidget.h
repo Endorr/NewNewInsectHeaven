@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "DialogueAction.h"
 #include "EditorUtilityWidget.h"
 #include "IDesktopPlatform.h"
 
@@ -88,6 +89,7 @@ public:
 	void DeleteAction(int32 _LayerIndex, int32 _ActionIndex, bool _IgnoreClip = false);
 	void MoveAction(TPair<int32,int32> _formerPos, TPair<int32,int32> _postPos, UDialogueAction* _ActionInfo, bool  _IgnoreClip = false);	//Drag & Drop
 	void ChangeAction(int32 _LayerIndex, int32 _ActionIndex, TSubclassOf<UDialogueAction> _ActionClass, bool _IgnoreClip = false);
+	TPair<int32,int32> GetActionPos(UDialogueAction* _Action);
 	UFUNCTION() void GrabAction(class UButton* _Button);
 	UFUNCTION(BlueprintCallable) void GrabOffAction();
 	UFUNCTION() void CloseDeselectContext(class UButton* _Button);

@@ -103,6 +103,7 @@ void UIH_Widget_DialogueToolAction::GetPos(int32& _LayerIndex, int32& _ActionInd
 
 void UIH_Widget_DialogueToolAction::SetSelect(bool _IsSelect)
 {
+	SelectState = _IsSelect;
 	if(CPP_Img_Select)
 	{
 		CPP_Img_Select->SetVisibility(_IsSelect ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
@@ -131,10 +132,17 @@ UButton* UIH_Widget_DialogueToolAction::GetSelectButton()
 
 void UIH_Widget_DialogueToolAction::OnPressSelectButton()
 {
-	ToolWidget->DeselectAction();
-	ToolWidget->SelectAction(this);
-	if(selectClick.IsBound())
-		selectClick.Broadcast(CPP_Btn_Click);
+	if(false == SelectState)
+	{
+		ToolWidget->DeselectAction();
+		ToolWidget->SelectAction(this);
+		if(selectClick.IsBound())
+			selectClick.Broadcast(CPP_Btn_Click);
+	}
+	else
+	{
+		ToolWidget->DeselectAction();
+	}
 }
 
 FSelectDelegate& UIH_Widget_DialogueToolAction::GetSelectDelgate()

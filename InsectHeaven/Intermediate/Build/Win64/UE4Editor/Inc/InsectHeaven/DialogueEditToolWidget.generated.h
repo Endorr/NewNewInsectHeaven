@@ -15,29 +15,29 @@ class UButton;
 #endif
 #define INSECTHEAVEN_DialogueEditToolWidget_generated_h
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_35_GENERATED_BODY \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_36_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FIH_Dialogue_Statics; \
 	INSECTHEAVEN_API static class UScriptStruct* StaticStruct();
 
 
 template<> INSECTHEAVEN_API UScriptStruct* StaticStruct<struct FIH_Dialogue>();
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_16_GENERATED_BODY \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_17_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FDialogueClip_Statics; \
 	INSECTHEAVEN_API static class UScriptStruct* StaticStruct();
 
 
 template<> INSECTHEAVEN_API UScriptStruct* StaticStruct<struct FDialogueClip>();
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_9_DELEGATE \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_10_DELEGATE \
 static inline void FDialoguePlayer_OnFinish_DelegateWrapper(const FMulticastScriptDelegate& DialoguePlayer_OnFinish) \
 { \
 	DialoguePlayer_OnFinish.ProcessMulticastDelegate<UObject>(NULL); \
 }
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_SPARSE_DATA
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_RPC_WRAPPERS \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_SPARSE_DATA
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execOnPostDialogueFinish); \
 	DECLARE_FUNCTION(execOnPostPlayingActionChanged); \
@@ -72,7 +72,7 @@ static inline void FDialoguePlayer_OnFinish_DelegateWrapper(const FMulticastScri
 	DECLARE_FUNCTION(execGrabAction);
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execOnPostDialogueFinish); \
 	DECLARE_FUNCTION(execOnPostPlayingActionChanged); \
@@ -107,7 +107,7 @@ static inline void FDialoguePlayer_OnFinish_DelegateWrapper(const FMulticastScri
 	DECLARE_FUNCTION(execGrabAction);
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_INCLASS_NO_PURE_DECLS \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUDialogueToolWidget(); \
 	friend struct Z_Construct_UClass_UDialogueToolWidget_Statics; \
@@ -116,7 +116,7 @@ public: \
 	DECLARE_SERIALIZER(UDialogueToolWidget)
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_INCLASS \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_INCLASS \
 private: \
 	static void StaticRegisterNativesUDialogueToolWidget(); \
 	friend struct Z_Construct_UClass_UDialogueToolWidget_Statics; \
@@ -125,7 +125,7 @@ public: \
 	DECLARE_SERIALIZER(UDialogueToolWidget)
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_STANDARD_CONSTRUCTORS \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDialogueToolWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDialogueToolWidget) \
@@ -138,7 +138,7 @@ private: \
 public:
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_ENHANCED_CONSTRUCTORS \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UDialogueToolWidget(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -151,7 +151,7 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDialogueToolWidget)
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_PRIVATE_PROPERTY_OFFSET \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentDialogue() { return STRUCT_OFFSET(UDialogueToolWidget, CurrentDialogue); } \
 	FORCEINLINE static uint32 __PPO__CurrentSelectedAction() { return STRUCT_OFFSET(UDialogueToolWidget, CurrentSelectedAction); } \
 	FORCEINLINE static uint32 __PPO__Text_Filename_Content() { return STRUCT_OFFSET(UDialogueToolWidget, Text_Filename_Content); } \
@@ -185,27 +185,27 @@ public: \
 	FORCEINLINE static uint32 __PPO__Button_StopPreview() { return STRUCT_OFFSET(UDialogueToolWidget, Button_StopPreview); }
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_43_PROLOG
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_GENERATED_BODY_LEGACY \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_44_PROLOG
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_PRIVATE_PROPERTY_OFFSET \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_SPARSE_DATA \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_RPC_WRAPPERS \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_INCLASS \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_STANDARD_CONSTRUCTORS \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_PRIVATE_PROPERTY_OFFSET \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_SPARSE_DATA \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_RPC_WRAPPERS \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_INCLASS \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_GENERATED_BODY \
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_PRIVATE_PROPERTY_OFFSET \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_SPARSE_DATA \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_RPC_WRAPPERS_NO_PURE_DECLS \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_INCLASS_NO_PURE_DECLS \
-	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_46_ENHANCED_CONSTRUCTORS \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_PRIVATE_PROPERTY_OFFSET \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_SPARSE_DATA \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_RPC_WRAPPERS_NO_PURE_DECLS \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_INCLASS_NO_PURE_DECLS \
+	InsectHeaven_Source_InsectHeaven_Library_Dialogue_DialogueEditToolWidget_h_47_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

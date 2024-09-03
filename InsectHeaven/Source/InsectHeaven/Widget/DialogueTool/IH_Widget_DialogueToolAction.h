@@ -95,4 +95,6 @@ private:
 
 	UPROPERTY()
 	FSelectDelegate selectClick;
+
+	bool SelectState = false;
 };

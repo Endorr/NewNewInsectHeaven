@@ -848,18 +848,8 @@ void UDialogueToolWidget::MoveAction(TPair<int32, int32> _formerPos, TPair<int32
 		return;
 	}
 	
-	if(_formerPos.Key == _postPos.Key
-		&& _formerPos.Value < _postPos.Value)
-	{
-		DeleteAction(_formerPos.Key, _formerPos.Value, true);
-		_postPos.Value -= 1;
-		AddActionAt(_postPos.Key, _postPos.Value, _ActionInfo, true);
-	}
-	else 
-	{
-		DeleteAction(_formerPos.Key, _formerPos.Value, true);
-		AddActionAt(_postPos.Key, _postPos.Value, _ActionInfo, true);
-	}
+	DeleteAction(_formerPos.Key, _formerPos.Value, true);
+	AddActionAt(_postPos.Key, _postPos.Value, _ActionInfo, true);
 
 	if (_IgnoreClip == false) 
 	{
@@ -869,6 +859,24 @@ void UDialogueToolWidget::MoveAction(TPair<int32, int32> _formerPos, TPair<int32
 		fDialogueClip.nowActionPos = _postPos;
 		fDialogueClip.nowAction = _ActionInfo;
 		DialogueClipBoard.Emplace(fDialogueClip);
+
+		int32 LayerCnt = ScrollBox_SequenceAction_Vertical->GetChildrenCount();
+		for(auto& LayerWidget : ScrollBox_SequenceAction_Vertical->GetAllChildren())
+		{
+			if(UHorizontalBox* ActionBox = Cast<UHorizontalBox>(LayerWidget))
+			{
+				for(auto& ChildWidget : ActionBox->GetAllChildren())
+				{
+					if(UIH_Widget_DialogueToolAction* ActionWidget = Cast<UIH_Widget_DialogueToolAction>(ChildWidget))
+					{
+						if(ActionWidget->GetActionInfo() == _ActionInfo)
+						{
+							SelectAction(ActionWidget);
+						}
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -892,6 +900,27 @@ void UDialogueToolWidget::ChangeAction(int32 _LayerIndex, int32 _ActionIndex, TS
 	UHorizontalBox* ActionHorizontalBox = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(_LayerIndex));
 	UIH_Widget_DialogueToolAction* ActionSlot = Cast< UIH_Widget_DialogueToolAction>(ActionHorizontalBox->GetChildAt(_ActionIndex));
 	ActionSlot->SetActionInfo(ChangingAction, _LayerIndex, _ActionIndex);
+}
+
+TPair<int32, int32> UDialogueToolWidget::GetActionPos(UDialogueAction* _Action)
+{
+	int32 FindLayerIndex = -1;
+	int32 FindActionIndex = -1;
+
+	for(int32 LayerIndex = 0; LayerIndex < CurrentDialogue.ActionLayers.Num(); ++LayerIndex)
+	{
+		TArray<UDialogueAction*> Actions = CurrentDialogue.ActionLayers[LayerIndex]->GetActions();
+		for(int32 ActionIndex = 0; ActionIndex < Actions.Num(); ++ActionIndex)
+		{
+			if(Actions[ActionIndex] == _Action)
+			{
+				FindLayerIndex = LayerIndex;
+				FindActionIndex = ActionIndex;
+			}
+		}
+	}
+
+	return TPair<int32, int32>(FindLayerIndex, FindActionIndex);
 }
 
 void UDialogueToolWidget::SetTimelineProgressText(int32 _CurrentNumber, int32 _MaxNumber)
@@ -1606,7 +1635,7 @@ void UDialogueToolWidget::MoveToNeighbor(FKey _Key)
 		return;
 	}
 
-	if (nullptr == CurrentSelectedAction || GrabView_Action->GetVisibility() != ESlateVisibility::Hidden)
+	if (nullptr == CurrentSelectedAction)
 	{
 		return;
 	}
@@ -1622,20 +1651,20 @@ void UDialogueToolWidget::MoveToNeighbor(FKey _Key)
 	
 	if (_Key == EKeys::W)
 	{
-
 		if (0 == LayerIndex)
 		{
 			return;
 		}
 
-		bSelectActionChanged = true;
-		DeselectAction();
+		TPair<int32, int32> FormerPos = TPair<int32, int32>(LayerIndex, ActionIndex);
+		TPair<int32, int32> PostPos;
+		int32 UpperLayerActionCount = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex - 1))->GetChildrenCount();
+		if(UpperLayerActionCount > ActionIndex)
+			PostPos = TPair<int32, int32>(LayerIndex - 1, ActionIndex);
+		else
+			PostPos = TPair<int32, int32>(LayerIndex - 1, UpperLayerActionCount);
 
-		UHorizontalBox* ActionHorizontalBox = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex-1));
-		CurrentSelectedAction = Cast<UIH_Widget_DialogueToolAction>(ActionHorizontalBox->GetChildAt(ActionIndex));
-		CurrentSelectedAction->OnPressSelectButton();
-		FocusOnSelect();
-		GrabView_Action->SetVisibility(ESlateVisibility::Hidden);
+		MoveAction(FormerPos, PostPos, CurrentSelectedAction->GetActionInfo());
 	}
 	else if (_Key == EKeys::S)
 	{
@@ -1644,14 +1673,15 @@ void UDialogueToolWidget::MoveToNeighbor(FKey _Key)
 			return;
 		}
 
-		bSelectActionChanged = true;
-		DeselectAction();
+		TPair<int32, int32> FormerPos = TPair<int32, int32>(LayerIndex, ActionIndex);
+		TPair<int32, int32> PostPos;
+		int32 UnderLayerActionCount = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex + 1))->GetChildrenCount();
+		if(UnderLayerActionCount > ActionIndex)
+			PostPos = TPair<int32, int32>(LayerIndex + 1, ActionIndex);
+		else
+			PostPos = TPair<int32, int32>(LayerIndex + 1, UnderLayerActionCount);
 
-		UHorizontalBox* ActionHorizontalBox = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex + 1));
-		CurrentSelectedAction = Cast<UIH_Widget_DialogueToolAction>(ActionHorizontalBox->GetChildAt(ActionIndex));
-		CurrentSelectedAction->OnPressSelectButton();
-		FocusOnSelect();
-		GrabView_Action->SetVisibility(ESlateVisibility::Hidden);
+		MoveAction(FormerPos, PostPos, CurrentSelectedAction->GetActionInfo());
 	}
 	else if (_Key == EKeys::A)
 	{
@@ -1660,14 +1690,10 @@ void UDialogueToolWidget::MoveToNeighbor(FKey _Key)
 			return;
 		}
 
-		bSelectActionChanged = true;
-		DeselectAction();
+		TPair<int32, int32> FormerPos = TPair<int32, int32>(LayerIndex, ActionIndex);
+		TPair<int32, int32> PostPos = TPair<int32, int32>(LayerIndex, ActionIndex - 1);
 
-		UHorizontalBox* ActionHorizontalBox = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex));
-		CurrentSelectedAction = Cast<UIH_Widget_DialogueToolAction>(ActionHorizontalBox->GetChildAt(ActionIndex - 1));
-		CurrentSelectedAction->OnPressSelectButton();
-		FocusOnSelect();
-		GrabView_Action->SetVisibility(ESlateVisibility::Hidden);
+		MoveAction(FormerPos, PostPos, CurrentSelectedAction->GetActionInfo());
 	}
 	else if (_Key == EKeys::D)
 	{
@@ -1676,14 +1702,10 @@ void UDialogueToolWidget::MoveToNeighbor(FKey _Key)
 			return;
 		}
 
-		bSelectActionChanged = true;
-		DeselectAction();
+		TPair<int32, int32> FormerPos = TPair<int32, int32>(LayerIndex, ActionIndex);
+		TPair<int32, int32> PostPos = TPair<int32, int32>(LayerIndex, ActionIndex + 1);
 
-		UHorizontalBox* ActionHorizontalBox = Cast<UHorizontalBox>(ScrollBox_SequenceAction_Vertical->GetChildAt(LayerIndex));
-		CurrentSelectedAction = Cast<UIH_Widget_DialogueToolAction>(ActionHorizontalBox->GetChildAt(ActionIndex + 1));
-		CurrentSelectedAction->OnPressSelectButton();
-		FocusOnSelect();
-		GrabView_Action->SetVisibility(ESlateVisibility::Hidden);
+		MoveAction(FormerPos, PostPos, CurrentSelectedAction->GetActionInfo());
 	}
 
 	//float SlideVector = 0.f;
