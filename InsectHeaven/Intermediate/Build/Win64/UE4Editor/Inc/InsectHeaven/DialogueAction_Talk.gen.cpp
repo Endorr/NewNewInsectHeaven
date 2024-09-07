@@ -39,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TalkString_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStrPropertyParams NewProp_TalkString;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TextAppearDelay_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TextAppearDelay;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -71,9 +75,17 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TalkString = { "TalkString", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_Talk, TalkString), METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TalkString_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TalkString_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay_MetaData[] = {
+		{ "Category", "UDialogueAction" },
+		{ "ModuleRelativePath", "Library/Dialogue/Action/DialogueAction_Talk.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay = { "TextAppearDelay", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_Talk, TextAppearDelay), METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDialogueAction_Talk_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_ActorName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TalkString,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UDialogueAction_Talk_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UDialogueAction_Talk>::IsAbstract,
@@ -102,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDialogueAction_Talk, 3366701155);
+	IMPLEMENT_CLASS(UDialogueAction_Talk, 1722672255);
 	template<> INSECTHEAVEN_API UClass* StaticClass<UDialogueAction_Talk>()
 	{
 		return UDialogueAction_Talk::StaticClass();

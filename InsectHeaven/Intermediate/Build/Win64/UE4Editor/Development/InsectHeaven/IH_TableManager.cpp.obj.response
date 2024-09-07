@@ -32,17 +32,25 @@
 /wd4244
 /wd4838
 /I .
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Library
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Table
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Util
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Scene
-/I C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Widget
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Blutility
+/I Editor
+/I Editor\Blutility\Classes
+/I Editor\Blutility\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
+/I Editor\EditorSubsystem\Public
+/I Editor\MainFrame\Public
+/I Editor\Documentation\Public
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Scene
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
@@ -118,14 +126,12 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\PropertyAccess
 /I Runtime\PropertyAccess\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
-/I Editor
 /I Programs\UnrealLightmass\Public
 /I Developer\Android\AndroidDeviceDetection\Public\Interfaces
 /I Editor\UnrealEd\Classes
 /I Editor\UnrealEd\Public
 /I Developer
 /I Developer\DirectoryWatcher\Public
-/I Editor\Documentation\Public
 /I Runtime\Projects\Public
 /I Runtime\SandboxFile\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle
@@ -140,8 +146,6 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph
 /I Editor\BlueprintGraph\Classes
 /I Editor\BlueprintGraph\Public
-/I ..\Intermediate\Build\Win64\UE4Editor\Inc\EditorSubsystem
-/I Editor\EditorSubsystem\Public
 /I Runtime\Online
 /I Runtime\Online\HTTP\Public
 /I Runtime\UnrealAudio\Public
@@ -241,6 +245,20 @@
 /I Runtime\ClothingSystemRuntimeInterface\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtilities
 /I Runtime\JsonUtilities\Public
+/I ..\Plugins\Editor\EditorScriptingUtilities\Intermediate\Build\Win64\UE4Editor\Inc\EditorScriptingUtilities
+/I ..\Plugins\Editor\EditorScriptingUtilities\Source
+/I ..\Plugins\Editor\EditorScriptingUtilities\Source\EditorScriptingUtilities\Public
+/I Developer\DesktopWidgets\Public
+/I Developer\DesktopPlatform\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\UMGEditor
+/I Editor\UMGEditor\Classes
+/I Editor\UMGEditor\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\Sequencer
+/I Editor\Sequencer\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\SceneOutliner
+/I Editor\SceneOutliner\Public
+/I ..\Intermediate\Build\Win64\UE4Editor\Inc\CurveEditor
+/I Editor\CurveEditor\Public
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -266,16 +284,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableManager.cpp"
-/FI"C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Development\InsectHeaven\Definitions.InsectHeaven.h"
-/Fo"C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Development\InsectHeaven\IH_TableManager.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt"
+/FI"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Yu"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/Fp"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableManager.cpp"
+/FI"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Development\InsectHeaven\Definitions.InsectHeaven.h"
+/Fo"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Development\InsectHeaven\IH_TableManager.cpp.obj"
 /TP
 /GR-
 /W4

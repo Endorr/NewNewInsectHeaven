@@ -3,10 +3,6 @@
 		{
 			"Actions": [
 				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
 					"ActorID": 0,
@@ -16,13 +12,15 @@
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
-					"TalkString": "testee"
+					"TalkString": "Dialogue_001_001",
+					"TextAppearDelay": 0.10000000149011612
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
-					"TalkString": "gqsvrf"
+					"TalkString": "Dialogue_001_002",
+					"TextAppearDelay": 0.10000000149011612
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
@@ -32,11 +30,6 @@
 		},
 		{
 			"Actions": [
-				{
-					"ClassType": "DialogueAction_Fade",
-					"bWaitInput": false,
-					"IsFadeOut": true
-				},
 				{
 					"ClassType": "DialogueAction_Empty",
 					"bWaitInput": false
@@ -58,10 +51,6 @@
 		},
 		{
 			"Actions": [
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
 				{
 					"ClassType": "DialogueAction_Background",
 					"bWaitInput": false,

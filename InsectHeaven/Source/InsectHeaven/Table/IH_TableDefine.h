@@ -1,4 +1,5 @@
 ﻿#pragma once
+#include "DataStruct/BasePath_Directory.h"
 
 UENUM()
 enum class ETableDataType : uint32

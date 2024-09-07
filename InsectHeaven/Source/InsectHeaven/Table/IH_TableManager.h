@@ -23,6 +23,10 @@ public:
 
 	bool GetFilePath(ETableDataType _eType, int32 _PathKey, FString& _Path);
 
+	void LoadStringTable(UStringTable** _pDestTable, FString _tablePath);
+	FText GetCommonString(FString _StringKey);
+	FText GetScript(FString _StringKey);
+
 private:
 	void AddTable();
 	void LoadRawTable();
@@ -48,6 +52,8 @@ public:
 
 private:
 	UPROPERTY() TMap<FString, class UDataTable*> RawTable;
+
+	UStringTable*										pLocalizeStringTable = nullptr;
 };
 
 #define gTableMng (*UIH_TableManager::GetInstance())

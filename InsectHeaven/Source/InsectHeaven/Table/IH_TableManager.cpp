@@ -2,6 +2,9 @@
 
 #include "IH_SingletonManager.h"
 #include "Engine/DataTable.h"
+#include "Internationalization/StringTable.h"
+#include "Internationalization/StringTableRegistry.h"
+#include "Misc/Paths.h"
 #include "TableMapper/IH_Mapper_BasePath_Dir.h"
 #include "TableMapper/IH_Mapper_BasePath_Img.h"
 #include "TableMapper/IH_Mapper_BasePath_Widget.h"
@@ -9,6 +12,7 @@
 #include "TableMapper/IH_Mapper_InGame_Local.h"
 #include "TableMapper/IH_Mapper_Resource_Widget.h"
 #include "TableMapper/IH_Mapper_Script_Local.h"
+#include "Templates/SubclassOf.h"
 #include "Util/IH_Util.h"
 
 void UIH_TableManager::Initialize()
@@ -16,6 +20,8 @@ void UIH_TableManager::Initialize()
 	AddTable();
 	LoadRawTable();
 	AddTableMappers();
+
+	LoadStringTable(&pLocalizeStringTable, TEXT("/Game/DataTable/Script.Script"));
 }
 
 void UIH_TableManager::PostInitialize()
@@ -85,6 +91,24 @@ bool UIH_TableManager::GetFilePath(ETableDataType _eType, int32 _PathKey, FStrin
 	_Path = DirectoryPath + FileName;
 
 	return true;
+}
+
+void UIH_TableManager::LoadStringTable(UStringTable** _pDestTable, FString _tablePath)
+{
+	if(nullptr == *_pDestTable)
+	{
+		*_pDestTable = Cast<UStringTable>(gMngKernel.LoadObjectFromFile(_tablePath, "tmp", 0, false, nullptr));
+	}
+}
+
+FText UIH_TableManager::GetCommonString(FString _StringKey)
+{
+	return FText::FromStringTable("Common", _StringKey);
+}
+
+FText UIH_TableManager::GetScript(FString _StringKey)
+{
+	return FText::FromStringTable(pLocalizeStringTable->GetStringTableId(), _StringKey);
 }
 
 void UIH_TableManager::LoadRawTable()

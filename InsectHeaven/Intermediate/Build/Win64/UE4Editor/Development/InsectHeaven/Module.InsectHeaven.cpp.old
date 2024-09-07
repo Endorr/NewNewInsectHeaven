@@ -8,6 +8,7 @@
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueAction.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueActionLayer.cpp"
+#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueEditToolWidget.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/IH_DialoguePlayer.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/IH_GameMode_DialgueTool.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/IH_SingletonManager.cpp"
