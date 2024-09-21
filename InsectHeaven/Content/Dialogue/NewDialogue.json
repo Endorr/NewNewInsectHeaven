@@ -13,14 +13,14 @@
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_001",
-					"TextAppearDelay": 0.10000000149011612
+					"TextAppearDelay": 0.05000000074505806
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
-					"TalkString": "Dialogue_001_002",
-					"TextAppearDelay": 0.10000000149011612
+					"TalkString": "Dialogue_001_003",
+					"TextAppearDelay": 0.05000000074505806
 				},
 				{
 					"ClassType": "DialogueAction_Empty",

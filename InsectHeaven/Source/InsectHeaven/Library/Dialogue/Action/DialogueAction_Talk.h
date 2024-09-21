@@ -2,6 +2,21 @@
 #include "Dialogue/DialogueAction.h"
 #include "DialogueAction_Talk.generated.h"
 
+struct FDecoratorPos
+{
+	int32 PreDecoStart = 0;
+	int32 PreDecoFinish = 0;
+	int32 PostDecoStart = 0;
+	int32 PostDecoFinish = 0;
+	FString PreDeco = "";
+	FString PostDeco = "";
+
+	FString GetDecoString(FString _UnDecoString)
+	{
+		return PreDeco + _UnDecoString + PostDeco;
+	}
+};
+
 UCLASS(BlueprintType)
 class UDialogueAction_Talk : public UDialogueAction
 {
@@ -15,6 +30,9 @@ public:
 	virtual void Execute() override;
 	virtual bool Progress(float _fDelta) override;
 	virtual void OnInput() override;
+
+	FString GetDecoratorPos(FString _TargetString, TArray<FDecoratorPos>& _DecoPosList, TArray<int32>& _DecoIndexList);
+	FString GetDecoratedString(int32 _Index);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UDialogueAction", meta = (DisplayPriority = "1"))
 	FName			        ActorName;
@@ -30,4 +48,7 @@ private:
 	FString LoadString = "";
 	float CurrentDelay = 0.f;
 	int32 TextIndex = 0;
+
+	TArray<FDecoratorPos> DecoPosList;
+	TArray<int32> DecoIndexList;
 };

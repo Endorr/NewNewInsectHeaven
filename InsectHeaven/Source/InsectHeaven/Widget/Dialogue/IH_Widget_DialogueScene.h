@@ -36,7 +36,7 @@ protected:
 	class UImage* CPP_Img_BackgroundSwitch = nullptr;
 
 	UPROPERTY(meta = (BindWidget))
-	class UTextBlock* CPP_Txt_Script = nullptr;
+	class URichTextBlock* CPP_Txt_Script = nullptr;
 
 	UPROPERTY(meta = (BindWidget))
 	class UCanvasPanel* CPP_Canvas_Script = nullptr;

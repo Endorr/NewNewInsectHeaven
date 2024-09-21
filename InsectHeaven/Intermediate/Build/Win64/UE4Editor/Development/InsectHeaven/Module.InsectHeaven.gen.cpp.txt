@@ -38,6 +38,9 @@ C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\U
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_ShowActor.gen.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_ShowActor.generated.h
+C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_Talk.gen.cpp
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_Talk.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueActionLayer.gen.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven/Library/Dialogue/DialogueActionLayer.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueActionLayer.generated.h
@@ -283,6 +286,7 @@ C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\U
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/InsectHeaven.gen.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven/InsectHeaven.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\InsectHeaven.generated.h
+C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/InsectHeaven.init.gen.cpp
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/InsectHeavenGameModeBase.gen.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven/InsectHeavenGameModeBase.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\InsectHeavenGameModeBase.generated.h

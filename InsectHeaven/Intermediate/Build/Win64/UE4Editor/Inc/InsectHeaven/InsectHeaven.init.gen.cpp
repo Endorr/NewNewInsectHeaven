@@ -35,8 +35,8 @@ void EmptyLinkFunctionForGeneratedCodeInsectHeaven_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x3694875C,
-				0xB4AAF986,
+				0xB4F5AE83,
+				0x4F1D8A17,
 				METADATA_PARAMS(nullptr, 0)
 			};
 			UE4CodeGen_Private::ConstructUPackage(ReturnPackage, PackageParams);

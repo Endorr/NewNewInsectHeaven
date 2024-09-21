@@ -6,8 +6,12 @@
 /NAME:"UE4Editor-InsectHeaven-Win64-DebugGame.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.obj"
-"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp.obj"
-"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.gen.cpp.obj"
-"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Default.rc2.res"
-/OUT:"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\UE4Editor-InsectHeaven-Win64-DebugGame.lib"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\IH_RichTextInlineDecorator.cpp.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\IH_Widget_DialogueScene.cpp.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\IH_RichTextInlineDecorator.gen.cpp.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\InsectHeaven.init.gen.cpp.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.gen.cpp.obj"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Default.rc2.res"
+/OUT:"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\UE4Editor-InsectHeaven-Win64-DebugGame.lib"

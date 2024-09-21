@@ -18,7 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 	INSECTHEAVEN_API UClass* Z_Construct_UClass_UIH_Widget();
 	UPackage* Z_Construct_UPackage__Script_InsectHeaven();
 	UMG_API UClass* Z_Construct_UClass_UImage_NoRegister();
-	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_URichTextBlock_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UCanvasPanel_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 // End Cross Module References
@@ -138,7 +138,7 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 		{ "ModuleRelativePath", "Widget/Dialogue/IH_Widget_DialogueScene.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Script = { "CPP_Txt_Script", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Txt_Script), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Script_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Script_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Script = { "CPP_Txt_Script", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Txt_Script), Z_Construct_UClass_URichTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Script_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Script_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Canvas_Script_MetaData[] = {
 		{ "BindWidget", "" },
@@ -207,7 +207,7 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UIH_Widget_DialogueScene, 1777586976);
+	IMPLEMENT_CLASS(UIH_Widget_DialogueScene, 3871274061);
 	template<> INSECTHEAVEN_API UClass* StaticClass<UIH_Widget_DialogueScene>()
 	{
 		return UIH_Widget_DialogueScene::StaticClass();

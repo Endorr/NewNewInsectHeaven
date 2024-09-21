@@ -193,6 +193,14 @@ C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\U
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\Action\DialogueAction_ShowActor.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_ShowActor.generated.h
+C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.cpp
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\Action\DialogueAction_Talk.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_Talk.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableManager.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableDefine.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/BasePath_Directory.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\BasePath_Directory.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_TableManager.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueAction.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\DialogueActionLayer.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueActionLayer.generated.h
@@ -241,8 +249,6 @@ C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util\U
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\UIH_CinemaFunctionLibrary.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util\UIH_FunctionLibrary.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\UIH_FunctionLibrary.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\Action/DialogueAction_Talk.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_Talk.generated.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/CanvasPanelSlot.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\CanvasPanelSlot.generated.h
 C:\Program Files\UE_4.27\Engine\Source\Editor\UMGEditor\Public\Components/DetailsView.h
@@ -281,11 +287,6 @@ C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\JsonUtili
 C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/IH_GameMode_DialgueTool.cpp
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/IH_SingletonManager.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableManager.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableDefine.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/BasePath_Directory.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\BasePath_Directory.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_TableManager.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/SingletonInterface.cpp
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Scene/IH_LevelScriptActor.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Scene\IH_LevelScriptActor.h
@@ -301,46 +302,50 @@ C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Scene/
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\MainLobby/IH_Widget_MainLobby.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_MainLobby.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/IH_TableDefine.cpp
-C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Dir.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_BasePath_Dir.h
+C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/IH_TableManager.cpp
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Engine\Public\Internationalization/StringTable.h
+C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StringTable.generated.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/StringTableRegistry.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_BasePath_Dir.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_TableMapper.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_TableMapper.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_BasePath_Dir.generated.h
-C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Img.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_BasePath_Img.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_BasePath_Img.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_BasePath_Img.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_BasePath_Widget.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_BasePath_Widget.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_Character_2D.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_Character_2D.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_InGame_Local.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_InGame_Local.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_Resource_Widget.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_Resource_Widget.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_Script_Local.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_Script_Local.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util/IH_Util.h
+C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Dir.cpp
+C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Img.cpp
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/BasePath_Image.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\BasePath_Image.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Widget.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_BasePath_Widget.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_BasePath_Widget.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/BasePath_Widget.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\BasePath_Widget.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_Character_2D.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_Character_2D.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_Character_2D.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/Character_2D.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\Character_2D.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_InGame_Local.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_InGame_Local.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_InGame_Local.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table/DataStruct/InGame_Local.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\InGame_Local.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_Resource_Widget.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_Resource_Widget.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_Resource_Widget.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table/DataStruct/Resource_Widget.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\Resource_Widget.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_Mapper_Script_Local.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_Mapper_Script_Local.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_Script_Local.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table/DataStruct/Script_Local.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\Script_Local.generated.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Table/TableMapper/IH_TableMapper.cpp
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Util/IH_StateBase.cpp
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Util/IH_StateMachine.cpp
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Util/IH_Util.cpp
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util\IH_Util.h
 C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Util/UIH_CinemaFunctionLibrary.cpp
 C:\Program Files\UE_4.27\Engine\Source\Runtime\Engine\Public\EngineAnalytics.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\Analytics\AnalyticsET\Public\IAnalyticsProviderET.h

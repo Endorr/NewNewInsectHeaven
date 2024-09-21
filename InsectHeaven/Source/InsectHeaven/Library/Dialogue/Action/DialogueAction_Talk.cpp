@@ -44,6 +44,8 @@ void UDialogueAction_Talk::Execute()
 		return;
 	
 	LoadString = gTableMng.GetScript(TalkString).ToString();
+
+	LoadString = GetDecoratorPos(LoadString, DecoPosList, DecoIndexList);
 	
 	if(false == LoadString.IsEmpty())
 	{
@@ -51,7 +53,8 @@ void UDialogueAction_Talk::Execute()
 		CurrentDelay = 0.f;
 		TextIndex = 1;
 
-		FString CopyString = LoadString.Left(TextIndex++);
+		FString CopyString = GetDecoratedString(TextIndex);
+		++TextIndex;
 	
 		UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
 		pWidget->SetText(CopyString, true);
@@ -74,7 +77,8 @@ bool UDialogueAction_Talk::Progress(float _fDelta)
 
 			if(LoadString.Len() > TextIndex)
 			{
-				FString CopyString = LoadString.Left(TextIndex++);
+				FString CopyString = GetDecoratedString(TextIndex);
+				++TextIndex;
 				
 				UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
 				pWidget->SetText(CopyString, true);
@@ -102,4 +106,146 @@ void UDialogueAction_Talk::OnInput()
 		eActionState = EActionStateType::Finished;
 		Finish();
 	}
+}
+
+FString UDialogueAction_Talk::GetDecoratorPos(FString _TargetString, TArray<FDecoratorPos>& _DecoPosList, TArray<int32>& _DecoIndexList)
+{
+	bool DecoDetect = false;
+	bool RecordDeco = false;
+	TPair<int32, int32> PreDecoPos = TPair<int32, int32>(0, 0);
+	FString PreDeco = "";
+	TPair<int32, int32> PostDecoPos = TPair<int32, int32>(0, 0);
+	FString PostDeco = "";
+	FString PureString = "";
+	
+	for(int32 StringIndex = 0; StringIndex < _TargetString.Len(); ++StringIndex)
+	{
+		wchar_t TargetCharacter = _TargetString[StringIndex];
+		if('<' == TargetCharacter)
+		{
+			if(false == DecoDetect)
+			{
+				DecoDetect = true;
+				RecordDeco = true;
+
+				PreDecoPos.Key = StringIndex;
+				PreDeco += TargetCharacter;
+			}
+			else
+			{
+				RecordDeco = true;
+				PostDecoPos.Key = StringIndex;
+				PostDeco += TargetCharacter;
+			}
+		}
+		else if('>' == TargetCharacter)
+		{
+			if(true == DecoDetect)
+			{
+				if(0 == PreDecoPos.Value)
+				{
+					RecordDeco = false;
+					PreDecoPos.Value = StringIndex;
+					PreDeco += TargetCharacter;
+				}
+				else if(0 == PostDecoPos.Value)
+				{
+					DecoDetect = false;
+					RecordDeco = false;
+					PostDecoPos.Value = StringIndex;
+					PostDeco += TargetCharacter;
+
+					FDecoratorPos NewDecoratorPos = FDecoratorPos();
+					NewDecoratorPos.PreDecoStart = PreDecoPos.Key;
+					NewDecoratorPos.PreDecoFinish = PreDecoPos.Value;
+					NewDecoratorPos.PostDecoStart = PostDecoPos.Key;
+					NewDecoratorPos.PostDecoFinish = PostDecoPos.Value;
+					NewDecoratorPos.PreDeco = PreDeco;
+					NewDecoratorPos.PostDeco = PostDeco;
+					_DecoPosList.Emplace(NewDecoratorPos);
+
+					PreDecoPos = TPair<int32, int32>(0, 0);
+					PreDeco = "";
+					PostDecoPos = TPair<int32, int32>(0, 0);
+					PostDeco = "";
+				}
+			}
+		}
+		else
+		{
+			if(true == RecordDeco)
+			{
+				if(0 == PreDecoPos.Value)
+				{
+					PreDeco += TargetCharacter;
+				}
+				else if(0 == PostDecoPos.Value)
+				{
+					PostDeco += TargetCharacter;
+				}
+
+				continue;
+			}
+
+			if(true == DecoDetect)
+			{
+				_DecoIndexList.Emplace(_DecoPosList.Num());
+			}
+			else
+			{
+				_DecoIndexList.Emplace(-1);
+			}
+
+			PureString += TargetCharacter;
+		}
+	}
+
+	return PureString;
+}
+
+FString UDialogueAction_Talk::GetDecoratedString(int32 _Index)
+{
+	if(LoadString.Len() <= _Index)
+		return "";
+
+	FString ResultString = "";
+	int32 TargetDecoIndex = -1;
+	FString DecoTargetString = "";
+	
+	for(int32 StringIndex = 0; StringIndex <= _Index;  ++StringIndex)
+	{
+		wchar_t TargetCharacter = LoadString[StringIndex];
+
+		if(-1 == DecoIndexList[StringIndex])
+		{
+			if("" != DecoTargetString)
+			{
+				FDecoratorPos Decorator = DecoPosList[TargetDecoIndex];
+				ResultString += Decorator.GetDecoString(DecoTargetString);
+				DecoTargetString = "";
+			}
+			
+			ResultString += TargetCharacter;
+			continue;
+		}
+
+		if(-1 != TargetDecoIndex && TargetDecoIndex != DecoIndexList[StringIndex])
+		{
+			FDecoratorPos Decorator = DecoPosList[TargetDecoIndex];
+			ResultString += Decorator.GetDecoString(DecoTargetString);
+			DecoTargetString = "";
+		}
+		
+		TargetDecoIndex = DecoIndexList[StringIndex];
+		DecoTargetString += TargetCharacter;
+	}
+
+	if("" != DecoTargetString)
+	{
+		FDecoratorPos Decorator = DecoPosList[TargetDecoIndex];
+		ResultString += Decorator.GetDecoString(DecoTargetString);
+		DecoTargetString = "";
+	}
+
+	return ResultString;
 }

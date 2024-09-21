@@ -40,14 +40,14 @@
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Library
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Table
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Util
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Scene
-/I D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Widget
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Scene
+/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
@@ -285,12 +285,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
-/Yu"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
-/Fp"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch"
-"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp"
-/FI"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h"
-/Fo"D:\Users\PC\Documents\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp.obj"
+/FI"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
+/Yu"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
+/Fp"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch"
+"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp"
+/FI"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h"
+/Fo"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp.obj"
 /TP
 /GR-
 /W4

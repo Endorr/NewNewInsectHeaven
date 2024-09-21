@@ -5,7 +5,9 @@
 #include "Components/Button.h"
 #include "Components/CanvasPanel.h"
 #include "Components/Image.h"
+#include "Components/RichTextBlock.h"
 #include "Components/TextBlock.h"
+#include "Engine/Texture2D.h"
 #include "TableMapper/IH_Mapper_BasePath_Img.h"
 
 void UIH_Widget_DialogueScene::NativeConstruct()
