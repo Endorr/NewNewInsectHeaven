@@ -31,13 +31,14 @@
 		{
 			"Actions": [
 				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": false,
+					"ActorID": 3,
+					"IsLeft": false
 				},
 				{
-					"ClassType": "DialogueAction_Fade",
-					"bWaitInput": false,
-					"IsFadeOut": false
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
@@ -66,6 +67,27 @@
 					"bWaitInput": false,
 					"BackgroundID": 14,
 					"IsSwitching": true
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				}
+			]
+		},
+		{
+			"Actions": [
+				{
+					"ClassType": "DialogueAction_Fade",
+					"bWaitInput": false,
+					"IsFadeOut": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
