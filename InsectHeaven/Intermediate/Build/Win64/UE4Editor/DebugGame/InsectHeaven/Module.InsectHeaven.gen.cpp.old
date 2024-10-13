@@ -7,8 +7,6 @@
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_Background.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_Empty.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_Fade.gen.cpp"
-#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_ShowActor.gen.cpp"
-#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction_Talk.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueActionLayer.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueDefine.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueEditToolWidget.gen.cpp"

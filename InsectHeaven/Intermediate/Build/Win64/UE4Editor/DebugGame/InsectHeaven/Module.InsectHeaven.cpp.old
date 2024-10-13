@@ -4,8 +4,6 @@
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Background.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Empty.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Fade.cpp"
-#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.cpp"
-#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueAction.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueActionLayer.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Library/Dialogue/DialogueEditToolWidget.cpp"
@@ -44,4 +42,3 @@
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Widget/DialogueTool/IH_Widget_DialogueToolLayerAdd.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Widget/IH_Widget.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Widget/IH_WidgetManager.cpp"
-#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Source/InsectHeaven/Widget/MainLobby/IH_Widget_MainLobby.cpp"

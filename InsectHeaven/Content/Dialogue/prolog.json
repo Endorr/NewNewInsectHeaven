@@ -530,7 +530,7 @@
 				{
 					"ClassType": "DialogueAction_Background",
 					"bWaitInput": false,
-					"BackgroundID": 13,
+					"BackgroundID": 15,
 					"IsSwitching": false
 				},
 				{

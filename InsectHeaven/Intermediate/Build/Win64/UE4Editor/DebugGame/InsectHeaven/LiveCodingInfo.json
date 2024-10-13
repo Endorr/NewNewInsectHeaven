@@ -7,6 +7,9 @@
 			"DialogueAction_Background.cpp.obj",
 			"DialogueAction_Empty.cpp.obj",
 			"DialogueAction_Fade.cpp.obj",
+			"DialogueAction_FadeText.cpp.obj",
+			"DialogueAction_ShowActor.cpp.obj",
+			"DialogueAction_Talk.cpp.obj",
 			"DialogueAction.cpp.obj",
 			"DialogueActionLayer.cpp.obj",
 			"DialogueEditToolWidget.cpp.obj",
@@ -37,6 +40,7 @@
 			"UIH_FunctionLibrary.cpp.obj",
 			"DialogueManager.cpp.obj",
 			"IH_SinglePropertyView.cpp.obj",
+			"IH_Widget_DialogueScene.cpp.obj",
 			"IH_Widget_Portrait.cpp.obj",
 			"UIH_DetailsView.cpp.obj",
 			"IH_Widget_DialogueToolAction.cpp.obj",
@@ -45,10 +49,6 @@
 			"IH_Widget_DialogueToolLayerAdd.cpp.obj",
 			"IH_Widget.cpp.obj",
 			"IH_WidgetManager.cpp.obj",
-			"DialogueAction_FadeText.cpp.obj",
-			"DialogueAction_ShowActor.cpp.obj",
-			"DialogueAction_Talk.cpp.obj",
-			"IH_Widget_DialogueScene.cpp.obj",
 			"IH_Widget_MainLobby.cpp.obj"
 		],
 		"Module.InsectHeaven.gen.cpp.obj": [
@@ -60,6 +60,9 @@
 			"DialogueAction_Background.gen.cpp.obj",
 			"DialogueAction_Empty.gen.cpp.obj",
 			"DialogueAction_Fade.gen.cpp.obj",
+			"DialogueAction_FadeText.gen.cpp.obj",
+			"DialogueAction_ShowActor.gen.cpp.obj",
+			"DialogueAction_Talk.gen.cpp.obj",
 			"DialogueActionLayer.gen.cpp.obj",
 			"DialogueDefine.gen.cpp.obj",
 			"DialogueEditToolWidget.gen.cpp.obj",
@@ -87,6 +90,7 @@
 			"IH_TableManager.gen.cpp.obj",
 			"IH_TableMapper.gen.cpp.obj",
 			"IH_Widget.gen.cpp.obj",
+			"IH_Widget_DialogueScene.gen.cpp.obj",
 			"IH_Widget_DialogueToolAction.gen.cpp.obj",
 			"IH_Widget_DialogueToolActionAdd.gen.cpp.obj",
 			"IH_Widget_DialogueToolLayer.gen.cpp.obj",
@@ -96,17 +100,13 @@
 			"IH_WidgetManager.gen.cpp.obj",
 			"InGame_Local.gen.cpp.obj",
 			"InsectHeaven.gen.cpp.obj",
+			"InsectHeaven.init.gen.cpp.obj",
 			"InsectHeavenGameModeBase.gen.cpp.obj",
 			"Resource_Widget.gen.cpp.obj",
 			"Script_Local.gen.cpp.obj",
 			"UIH_CinemaFunctionLibrary.gen.cpp.obj",
 			"UIH_DetailsView.gen.cpp.obj",
-			"UIH_FunctionLibrary.gen.cpp.obj",
-			"DialogueAction_FadeText.gen.cpp.obj",
-			"DialogueAction_ShowActor.gen.cpp.obj",
-			"DialogueAction_Talk.gen.cpp.obj",
-			"IH_Widget_DialogueScene.gen.cpp.obj",
-			"InsectHeaven.init.gen.cpp.obj"
+			"UIH_FunctionLibrary.gen.cpp.obj"
 		]
 	}
 }
