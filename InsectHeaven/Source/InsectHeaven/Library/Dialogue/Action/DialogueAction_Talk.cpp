@@ -13,6 +13,10 @@ void UDialogueAction_Talk::SaveToJson(TSharedPtr<FJsonObject> _JsonObject)
 	_JsonObject->SetStringField(TEXT("TalkString"), TalkString);
 
 	_JsonObject->SetNumberField(TEXT("TextAppearDelay"), TextAppearDelay);
+
+	int32 DimmedNumber = INDEX_NONE;
+	ConvertEnum(DimmedType, DimmedNumber);
+	_JsonObject->SetNumberField(TEXT("DimmedType"), DimmedNumber);
 }
 
 void UDialogueAction_Talk::LoadFromJson(TSharedPtr<FJsonObject> _JsonObject)
@@ -24,6 +28,9 @@ void UDialogueAction_Talk::LoadFromJson(TSharedPtr<FJsonObject> _JsonObject)
 	ActorName = FName(_JsonObject->GetStringField(TEXT("ActorName")));
 
 	TextAppearDelay = _JsonObject->GetNumberField(TEXT("TextAppearDelay"));
+
+	int32 DimmedNumber = _JsonObject->GetNumberField(TEXT("DimmedType"));
+	ConvertEnum(DimmedType, DimmedNumber);
 }
 
 FText UDialogueAction_Talk::Get_Name()
@@ -46,6 +53,9 @@ void UDialogueAction_Talk::Execute()
 	LoadString = gTableMng.GetScript(TalkString).ToString();
 
 	LoadString = GetDecoratorPos(LoadString, DecoPosList, DecoIndexList);
+
+	UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
+	pWidget->SetText(LoadString, true);
 	
 	if(false == LoadString.IsEmpty())
 	{
@@ -55,14 +65,33 @@ void UDialogueAction_Talk::Execute()
 
 		FString CopyString = GetDecoratedString(TextIndex);
 		++TextIndex;
-	
-		UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
+		
 		pWidget->SetText(CopyString, true);
 	}
 	else
 	{
-		UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
 		pWidget->SetText(LoadString, true);
+	}
+
+	if(EDimmedType::EDimmedType_Both == DimmedType)
+	{
+		pWidget->SetCharacterDimmed(true, true);
+		pWidget->SetCharacterDimmed(false, true);
+	}
+	else if(EDimmedType::EDimmedType_None == DimmedType)
+	{
+		pWidget->SetCharacterDimmed(true, false);
+		pWidget->SetCharacterDimmed(false, false);
+	}
+	else if(EDimmedType::EDimmedType_Left == DimmedType)
+	{
+		pWidget->SetCharacterDimmed(true, true);
+		pWidget->SetCharacterDimmed(false, false);
+	}
+	else if(EDimmedType::EDimmedType_Right == DimmedType)
+	{
+		pWidget->SetCharacterDimmed(true, false);
+		pWidget->SetCharacterDimmed(false, true);
 	}
 }
 
@@ -248,4 +277,42 @@ FString UDialogueAction_Talk::GetDecoratedString(int32 _Index)
 	}
 
 	return ResultString;
+}
+
+void UDialogueAction_Talk::ConvertEnum(EDimmedType& _DimmedType, int32& _Number)
+{
+	if(INDEX_NONE == _Number)
+	{
+		switch (_DimmedType)
+		{
+		case EDimmedType::EDimmedType_None:
+			_Number = 0;
+			break;
+		case EDimmedType::EDimmedType_Both:
+			_Number = 1;
+			break;
+		case EDimmedType::EDimmedType_Left:
+			_Number = 2;
+			break;
+		case EDimmedType::EDimmedType_Right:
+			_Number = 3;
+			break;
+		case EDimmedType::EDimmedType_NoAction:
+			_Number = 4;
+			break;
+		}
+	}
+	else
+	{
+		if(0 == _Number)
+			_DimmedType = EDimmedType::EDimmedType_None;
+		else if(1 == _Number)
+			_DimmedType = EDimmedType::EDimmedType_Both;
+		else if(2 == _Number)
+			_DimmedType = EDimmedType::EDimmedType_Left;
+		else if(3 == _Number)
+			_DimmedType = EDimmedType::EDimmedType_Right;
+		else if(4 == _Number)
+			_DimmedType = EDimmedType::EDimmedType_NoAction;
+	}
 }

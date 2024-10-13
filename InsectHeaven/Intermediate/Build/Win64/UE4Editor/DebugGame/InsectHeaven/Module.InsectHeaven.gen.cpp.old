@@ -23,6 +23,7 @@
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_Mapper_InGame_Local.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_Mapper_Resource_Widget.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_Mapper_Script_Local.gen.cpp"
+#include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_RichTextInlineDecorator.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_SceneBase.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_SceneDefine.gen.cpp"
 #include "C:/Users/nanim/GitHub/NewNewInsectHeaven/InsectHeaven/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/IH_SceneLobby.gen.cpp"

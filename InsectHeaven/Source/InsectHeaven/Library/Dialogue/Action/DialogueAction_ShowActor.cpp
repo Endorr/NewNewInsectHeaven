@@ -9,6 +9,7 @@ void UDialogueAction_ShowActor::SaveToJson(TSharedPtr<FJsonObject> _JsonObject)
 
 	_JsonObject->SetNumberField(TEXT("ActorID"), ActorID);
 	_JsonObject->SetBoolField(TEXT("IsLeft"), IsLeft);
+	_JsonObject->SetBoolField(TEXT("IsDimmed"), IsDimmed);
 }
 
 void UDialogueAction_ShowActor::LoadFromJson(TSharedPtr<FJsonObject> _JsonObject)
@@ -17,6 +18,7 @@ void UDialogueAction_ShowActor::LoadFromJson(TSharedPtr<FJsonObject> _JsonObject
 
 	ActorID = _JsonObject->GetNumberField(TEXT("ActorID"));
 	IsLeft = _JsonObject->GetBoolField(TEXT("IsLeft"));
+	IsDimmed = _JsonObject->GetBoolField(TEXT("IsDimmed"));
 }
 
 FText UDialogueAction_ShowActor::Get_Name()
@@ -38,6 +40,7 @@ void UDialogueAction_ShowActor::Execute()
 		if(UIH_Widget_DialogueScene* DialogueScene = pOwnerPlayer->GetDialogueWidget())
 		{
 			DialogueScene->SetCharacter(ActorID, IsLeft);
+			DialogueScene->SetCharacterDimmed(IsLeft, IsDimmed);
 		}
 	}
 }

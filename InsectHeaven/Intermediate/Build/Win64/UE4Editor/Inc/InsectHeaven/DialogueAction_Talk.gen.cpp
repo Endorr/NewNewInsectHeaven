@@ -13,11 +13,71 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 // Cross Module References
+	INSECTHEAVEN_API UEnum* Z_Construct_UEnum_InsectHeaven_EDimmedType();
+	UPackage* Z_Construct_UPackage__Script_InsectHeaven();
 	INSECTHEAVEN_API UClass* Z_Construct_UClass_UDialogueAction_Talk_NoRegister();
 	INSECTHEAVEN_API UClass* Z_Construct_UClass_UDialogueAction_Talk();
 	INSECTHEAVEN_API UClass* Z_Construct_UClass_UDialogueAction();
-	UPackage* Z_Construct_UPackage__Script_InsectHeaven();
 // End Cross Module References
+	static UEnum* EDimmedType_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_InsectHeaven_EDimmedType, Z_Construct_UPackage__Script_InsectHeaven(), TEXT("EDimmedType"));
+		}
+		return Singleton;
+	}
+	template<> INSECTHEAVEN_API UEnum* StaticEnum<EDimmedType>()
+	{
+		return EDimmedType_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EDimmedType(EDimmedType_StaticEnum, TEXT("/Script/InsectHeaven"), TEXT("EDimmedType"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_InsectHeaven_EDimmedType_Hash() { return 1457507660U; }
+	UEnum* Z_Construct_UEnum_InsectHeaven_EDimmedType()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_InsectHeaven();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EDimmedType"), 0, Get_Z_Construct_UEnum_InsectHeaven_EDimmedType_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EDimmedType::EDimmedType_None", (int64)EDimmedType::EDimmedType_None },
+				{ "EDimmedType::EDimmedType_Both", (int64)EDimmedType::EDimmedType_Both },
+				{ "EDimmedType::EDimmedType_Left", (int64)EDimmedType::EDimmedType_Left },
+				{ "EDimmedType::EDimmedType_Right", (int64)EDimmedType::EDimmedType_Right },
+				{ "EDimmedType::EDimmedType_NoAction", (int64)EDimmedType::EDimmedType_NoAction },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "EDimmedType_Both.Name", "EDimmedType::EDimmedType_Both" },
+				{ "EDimmedType_Left.Name", "EDimmedType::EDimmedType_Left" },
+				{ "EDimmedType_NoAction.Name", "EDimmedType::EDimmedType_NoAction" },
+				{ "EDimmedType_None.Name", "EDimmedType::EDimmedType_None" },
+				{ "EDimmedType_Right.Name", "EDimmedType::EDimmedType_Right" },
+				{ "ModuleRelativePath", "Library/Dialogue/Action/DialogueAction_Talk.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_InsectHeaven,
+				nullptr,
+				"EDimmedType",
+				"EDimmedType",
+				Enumerators,
+				UE_ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				EEnumFlags::None,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, UE_ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void UDialogueAction_Talk::StaticRegisterNativesUDialogueAction_Talk()
 	{
 	}
@@ -43,6 +103,11 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TextAppearDelay_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_TextAppearDelay;
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_DimmedType_Underlying;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_DimmedType_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_DimmedType;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -82,10 +147,20 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 	};
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay = { "TextAppearDelay", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_Talk, TextAppearDelay), METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay_MetaData)) };
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType_MetaData[] = {
+		{ "Category", "UDialogueAction" },
+		{ "ModuleRelativePath", "Library/Dialogue/Action/DialogueAction_Talk.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType = { "DimmedType", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_Talk, DimmedType), Z_Construct_UEnum_InsectHeaven_EDimmedType, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDialogueAction_Talk_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_ActorName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TalkString,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_TextAppearDelay,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_Talk_Statics::NewProp_DimmedType,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UDialogueAction_Talk_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UDialogueAction_Talk>::IsAbstract,
@@ -114,7 +189,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_Talk() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDialogueAction_Talk, 1722672255);
+	IMPLEMENT_CLASS(UDialogueAction_Talk, 2469990909);
 	template<> INSECTHEAVEN_API UClass* StaticClass<UDialogueAction_Talk>()
 	{
 		return UDialogueAction_Talk::StaticClass();

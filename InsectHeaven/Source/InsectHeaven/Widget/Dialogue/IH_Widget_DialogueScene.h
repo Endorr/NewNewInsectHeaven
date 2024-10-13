@@ -17,13 +17,16 @@ public:
 	virtual void Tick(float _DeltaTime) override;
 
 	void SetCharacter(int32 CharacterID, bool _IsLeft);
+	void SetCharacterDimmed(bool _IsLeft, bool _IsDimmed);
 	void SetText(FString _Text, bool _bImmediate);
+	void SetFadeText(FString _Text);
 	void SetCommitDelegate(FDialogueWidgetButtonEvent _Delegate);
 
 	void SetBackground(int32 _ImageID, bool _IsSwitching);
 
 	bool IsShowTalkPanel();
 	void HideTalkPanel();
+
 
 	UFUNCTION()
 	void OnCommit();
@@ -48,7 +51,16 @@ protected:
 	class UImage* CPP_Img_Left = nullptr;
 
 	UPROPERTY(meta = (BindWidget))
+	class UImage* CPP_Img_LeftDimmed = nullptr;
+
+	UPROPERTY(meta = (BindWidget))
 	class UImage* CPP_Img_Right = nullptr;
+
+	UPROPERTY(meta = (BindWidget))
+	class UImage* CPP_Img_RightDimmed = nullptr;
+
+	UPROPERTY(meta = (BindWidget))
+	class UTextBlock* CPP_Txt_Fade = nullptr;
 
 private:
 	FString LeftText = "";

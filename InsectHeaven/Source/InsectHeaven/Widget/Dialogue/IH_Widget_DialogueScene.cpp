@@ -43,12 +43,29 @@ void UIH_Widget_DialogueScene::SetCharacter(int32 CharacterID, bool _IsLeft)
 		{
 			CPP_Img_Left->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 			CPP_Img_Left->SetBrushFromTexture(CharacterTexture);
+			CPP_Img_LeftDimmed->SetBrushFromTexture(CharacterTexture);
 		}
 		else
 		{
 			CPP_Img_Right->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 			CPP_Img_Right->SetBrushFromTexture(CharacterTexture);
+			CPP_Img_RightDimmed->SetBrushFromTexture(CharacterTexture);
 		}
+	}
+}
+
+void UIH_Widget_DialogueScene::SetCharacterDimmed(bool _IsLeft, bool _IsDimmed)
+{
+	if(true == _IsLeft)
+	{
+		CPP_Img_LeftDimmed->SetVisibility(_IsDimmed ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
+		CPP_Img_LeftDimmed->SetOpacity(0.4f);
+	}
+	else
+		
+	{
+		CPP_Img_RightDimmed->SetVisibility(_IsDimmed ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
+		CPP_Img_RightDimmed->SetOpacity(0.4f);
 	}
 }
 
@@ -57,6 +74,14 @@ void UIH_Widget_DialogueScene::SetText(FString _Text, bool _bImmediate)
 	if(CPP_Txt_Script)
 	{
 		CPP_Txt_Script->SetText(FText::FromString(_Text));
+	}
+}
+
+void UIH_Widget_DialogueScene::SetFadeText(FString _Text)
+{
+	if(CPP_Txt_Fade)
+	{
+		CPP_Txt_Fade->SetText(FText::FromString(_Text));
 	}
 }
 

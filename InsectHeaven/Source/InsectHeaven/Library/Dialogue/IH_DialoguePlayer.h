@@ -1,4 +1,6 @@
 ﻿#pragma once
+#include "Engine/EngineTypes.h"
+#include "GameFramework/Actor.h"
 #include "IH_DialoguePlayer.generated.h"
 
 class UDialogueActionLayer;

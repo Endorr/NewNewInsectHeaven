@@ -2,6 +2,16 @@
 #include "Dialogue/DialogueAction.h"
 #include "DialogueAction_Talk.generated.h"
 
+UENUM()
+enum class EDimmedType
+{
+	EDimmedType_None,
+	EDimmedType_Both,
+	EDimmedType_Left,
+	EDimmedType_Right,
+	EDimmedType_NoAction
+};
+
 struct FDecoratorPos
 {
 	int32 PreDecoStart = 0;
@@ -34,6 +44,8 @@ public:
 	FString GetDecoratorPos(FString _TargetString, TArray<FDecoratorPos>& _DecoPosList, TArray<int32>& _DecoIndexList);
 	FString GetDecoratedString(int32 _Index);
 
+	void ConvertEnum(EDimmedType& _DimmedType, int32& _Number);
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UDialogueAction", meta = (DisplayPriority = "1"))
 	FName			        ActorName;
 
@@ -42,6 +54,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UDialogueAction")
 	float		TextAppearDelay = 0.5f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UDialogueAction")
+	EDimmedType DimmedType = EDimmedType::EDimmedType_NoAction;
 
 private:
 	bool TextLoading = false;

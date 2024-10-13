@@ -40,6 +40,11 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_ShowActor() {}
 #endif
 		static void NewProp_IsLeft_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsLeft;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_IsDimmed_MetaData[];
+#endif
+		static void NewProp_IsDimmed_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_IsDimmed;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -77,9 +82,23 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_ShowActor() {}
 		((UDialogueAction_ShowActor*)Obj)->IsLeft = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsLeft = { "IsLeft", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UDialogueAction_ShowActor), &Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsLeft_SetBit, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsLeft_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsLeft_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed_MetaData[] = {
+		{ "Category", "UDialogueAction" },
+		{ "DisplayPriority", "1" },
+		{ "ModuleRelativePath", "Library/Dialogue/Action/DialogueAction_ShowActor.h" },
+		{ "MultiLine", "true" },
+	};
+#endif
+	void Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed_SetBit(void* Obj)
+	{
+		((UDialogueAction_ShowActor*)Obj)->IsDimmed = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed = { "IsDimmed", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(UDialogueAction_ShowActor), &Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed_SetBit, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDialogueAction_ShowActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_ActorID,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsLeft,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_ShowActor_Statics::NewProp_IsDimmed,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UDialogueAction_ShowActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UDialogueAction_ShowActor>::IsAbstract,
@@ -108,7 +127,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_ShowActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDialogueAction_ShowActor, 4008577050);
+	IMPLEMENT_CLASS(UDialogueAction_ShowActor, 25508534);
 	template<> INSECTHEAVEN_API UClass* StaticClass<UDialogueAction_ShowActor>()
 	{
 		return UDialogueAction_ShowActor::StaticClass();

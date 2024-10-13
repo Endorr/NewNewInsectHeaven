@@ -75,7 +75,10 @@ public: \
 	FORCEINLINE static uint32 __PPO__CPP_Canvas_Script() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Canvas_Script); } \
 	FORCEINLINE static uint32 __PPO__CPP_Btn_Commit() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Btn_Commit); } \
 	FORCEINLINE static uint32 __PPO__CPP_Img_Left() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_Left); } \
-	FORCEINLINE static uint32 __PPO__CPP_Img_Right() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_Right); }
+	FORCEINLINE static uint32 __PPO__CPP_Img_LeftDimmed() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_LeftDimmed); } \
+	FORCEINLINE static uint32 __PPO__CPP_Img_Right() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_Right); } \
+	FORCEINLINE static uint32 __PPO__CPP_Img_RightDimmed() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_RightDimmed); } \
+	FORCEINLINE static uint32 __PPO__CPP_Txt_Fade() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Txt_Fade); }
 
 
 #define InsectHeaven_Source_InsectHeaven_Widget_Dialogue_IH_Widget_DialogueScene_h_8_PROLOG
