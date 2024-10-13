@@ -7,175 +7,198 @@
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_001",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_002",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 3
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_003",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_004",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_005",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_006",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_007",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_008",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_009",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 3
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_010",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_011",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_012",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_013",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_014",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 3
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_015",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_016",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_017",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_018",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_019",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_020",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_021",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_022",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_023",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
 					"ClassType": "DialogueAction_Talk",
 					"bWaitInput": true,
 					"ActorName": "None",
 					"TalkString": "Dialogue_001_024",
-					"TextAppearDelay": 0.05000000074505806
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 1
 				},
 				{
-					"ClassType": "DialogueAction_Talk",
-					"bWaitInput": true,
-					"ActorName": "None",
+					"ClassType": "DialogueAction_FadeText",
+					"bWaitInput": false,
 					"TalkString": "Dialogue_001_025",
-					"TextAppearDelay": 0.05000000074505806
+					"AppearTime": 3
 				}
 			]
 		},
@@ -185,7 +208,8 @@
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
 					"ActorID": 3,
-					"IsLeft": false
+					"IsLeft": false,
+					"IsDimmed": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
@@ -280,8 +304,9 @@
 					"bWaitInput": false
 				},
 				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
+					"ClassType": "DialogueAction_Fade",
+					"bWaitInput": false,
+					"IsFadeOut": true
 				}
 			]
 		},
@@ -291,7 +316,8 @@
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
 					"ActorID": 0,
-					"IsLeft": true
+					"IsLeft": true,
+					"IsDimmed": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
@@ -340,17 +366,17 @@
 				{
 					"ClassType": "DialogueAction_Empty",
 					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Fade",
-					"bWaitInput": false,
-					"IsFadeOut": false
 				},
 				{
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
 					"ActorID": 7,
-					"IsLeft": true
+					"IsLeft": true,
+					"IsDimmed": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
@@ -401,6 +427,106 @@
 					"bWaitInput": false,
 					"IsFadeOut": false
 				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				}
+			]
+		},
+		{
+			"Actions": [
 				{
 					"ClassType": "DialogueAction_Background",
 					"bWaitInput": false,
@@ -496,10 +622,12 @@
 					"bWaitInput": false
 				},
 				{
-					"ClassType": "DialogueAction_Background",
-					"bWaitInput": false,
-					"BackgroundID": 14,
-					"IsSwitching": true
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
 				}
 			]
 		}
