@@ -300,18 +300,32 @@
 					"bWaitInput": false
 				},
 				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
 					"ClassType": "DialogueAction_Fade",
 					"bWaitInput": false,
 					"IsFadeOut": true
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
 				}
 			]
 		},
 		{
 			"Actions": [
+				{
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": false,
+					"ActorID": 0,
+					"IsLeft": true,
+					"IsDimmed": false
+				},
+				{
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": false,
+					"ActorID": 16,
+					"IsLeft": true,
+					"IsDimmed": false
+				},
 				{
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
@@ -340,12 +354,11 @@
 					"bWaitInput": false
 				},
 				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": false,
+					"ActorID": 17,
+					"IsLeft": true,
+					"IsDimmed": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
@@ -373,10 +386,6 @@
 					"ActorID": 7,
 					"IsLeft": true,
 					"IsDimmed": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",
