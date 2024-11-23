@@ -2,6 +2,7 @@
 
 #include "DialogueActionLayer.h"
 #include "IH_DialoguePlayer.h"
+#include "Styling/SlateColor.h"
 
 UDialogueAction::UDialogueAction(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
@@ -36,6 +37,12 @@ void UDialogueAction::Reset()
 FText UDialogueAction::Get_Name()
 {
 	return FText::FromString("");
+}
+
+FSlateColor UDialogueAction::Get_Color()
+{
+	FSlateColor color = FSlateColor(FLinearColor(FVector4(1.f, 1.f, 1.f, 1.f)));
+	return color;
 }
 
 FText UDialogueAction::Get_Description()

@@ -9,6 +9,7 @@ enum class ETableDataType : uint32
 	BasePathDir			UMETA(DisplayName = "BasePathDir"),
 	BasePathWidget		UMETA(DisplayName = "BasePathWidget"),
 	BasePathImage		UMETA(DisplayName = "BasePathImage"),
+	BasePathDialogue	UMETA(DisplayName = "BasePathDialogue"),
 	ResourceWidget		UMETA(DisplayName = "ResourceWidget"),
 	Character2D			UMETA(DisplayName = "Character2D"),
 

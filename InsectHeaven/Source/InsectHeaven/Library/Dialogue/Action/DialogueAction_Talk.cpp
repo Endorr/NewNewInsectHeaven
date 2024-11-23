@@ -38,6 +38,12 @@ FText UDialogueAction_Talk::Get_Name()
 	return FText::FromString("Talk");
 }
 
+FSlateColor UDialogueAction_Talk::Get_Color()
+{
+	FSlateColor TalkColor = FSlateColor(FLinearColor(FVector(1.f, 0.74f, 0.2f)));
+	return TalkColor;
+}
+
 FText UDialogueAction_Talk::Get_Description()
 {
 	return FText::FromString(TalkString);

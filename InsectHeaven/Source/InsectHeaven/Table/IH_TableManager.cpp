@@ -5,6 +5,7 @@
 #include "Internationalization/StringTable.h"
 #include "Internationalization/StringTableRegistry.h"
 #include "Misc/Paths.h"
+#include "TableMapper/IH_Mapper_BasePath_Dialogue.h"
 #include "TableMapper/IH_Mapper_BasePath_Dir.h"
 #include "TableMapper/IH_Mapper_BasePath_Img.h"
 #include "TableMapper/IH_Mapper_BasePath_Widget.h"
@@ -78,6 +79,12 @@ bool UIH_TableManager::GetFilePath(ETableDataType _eType, int32 _PathKey, FStrin
 			UIH_Mapper_BasePath_Img* pMapper_BasePathImage = Cast<UIH_Mapper_BasePath_Img>(GetTableMapper(ETableDataType::BasePathImage));
 			FileName = pMapper_BasePathImage->GetPath(_PathKey);
 		}
+	case ETableDataType::BasePathDialogue:
+		{
+			DirectoryKey = 103;
+			UIH_Mapper_BasePath_Dialogue* pMapper_BasePathDialogue = Cast<UIH_Mapper_BasePath_Dialogue>(GetTableMapper(ETableDataType::BasePathDialogue));
+			FileName = pMapper_BasePathDialogue->GetPath(_PathKey);
+		}
 	default:
 		break;
 	}
@@ -133,6 +140,7 @@ void UIH_TableManager::AddTableMappers()
 	AddTableMapper(ETableDataType::BasePathDir, UIH_Mapper_BasePath_Dir::StaticClass());
 	AddTableMapper(ETableDataType::BasePathWidget, UIH_Mapper_BasePath_Widget::StaticClass());
 	AddTableMapper(ETableDataType::BasePathImage, UIH_Mapper_BasePath_Img::StaticClass());
+	AddTableMapper(ETableDataType::BasePathDialogue, UIH_Mapper_BasePath_Dialogue::StaticClass());
 	AddTableMapper(ETableDataType::Character2D, UIH_Mapper_Character_2D::StaticClass());
 }
 
@@ -146,6 +154,7 @@ void UIH_TableManager::AddTable()
 	EmplacePath(ETableDataType::BasePathDir, "/Game/DataTable/BasePath_Directory.BasePath_Directory");
 	EmplacePath(ETableDataType::BasePathWidget, "/Game/DataTable/BasePath_Widget.BasePath_Widget");
 	EmplacePath(ETableDataType::BasePathImage, "/Game/DataTable/BasePath_Image.BasePath_Image");
+	EmplacePath(ETableDataType::BasePathDialogue, "/Game/DataTable/BasePath_Dialogue");
 	EmplacePath(ETableDataType::Character2D, "/Game/DataTable/Character_2D.Character_2D");
 }
 

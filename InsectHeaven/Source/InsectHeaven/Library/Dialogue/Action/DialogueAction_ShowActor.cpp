@@ -26,6 +26,12 @@ FText UDialogueAction_ShowActor::Get_Name()
 	return FText::FromString("ShowActor");
 }
 
+FSlateColor UDialogueAction_ShowActor::Get_Color()
+{
+	FSlateColor ShowActorColor = FSlateColor(FLinearColor(FVector(0.2f, 1.f, 0.92f)));
+	return ShowActorColor;
+}
+
 FText UDialogueAction_ShowActor::Get_Description()
 {
 	return FText::AsNumber(ActorID);

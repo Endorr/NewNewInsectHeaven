@@ -56,23 +56,27 @@ void UDialogueToolWidget::NativeConstruct()
 	//SetFileName(FPaths::GetCleanFilename(NewFileName) );
 	SetFileName(TEXT("") );
 
-	bool bLoadActiveDialogue = false;
-	GConfig->GetBool(TEXT("/Script/ProjectVic.DialogueTool"), TEXT("OpenWithActiveDialogue"), bLoadActiveDialogue, GGameIni);
+	CreateWidgets();
 
-	if (bLoadActiveDialogue)
-	{
-		LoadActiveDialogue();
-
-		FString SavedCurrentFileName;
-		GConfig->GetString(TEXT("/Script/ProjectVic.DialogueTool"), TEXT("CurrentFileName"), SavedCurrentFileName, GGameIni);
-		GConfig->GetString(TEXT("/Script/ProjectVic.DialogueTool"), TEXT("CurrentFilePath"), LoadFilePath, GGameIni);
-		
-		SetFileName(FPaths::GetCleanFilename(SavedCurrentFileName));
-	}
-	else
-	{
-		CreateWidgets();
-	}
+	// {
+	// 	bool bLoadActiveDialogue = false;
+	// 	GConfig->GetBool(TEXT("/Script/ProjectVic.DialogueTool"), TEXT("OpenWithActiveDialogue"), bLoadActiveDialogue, GGameIni);
+	//
+	// 	if (bLoadActiveDialogue)
+	// 	{
+	// 		LoadActiveDialogue();
+	//
+	// 		FString SavedCurrentFileName;
+	// 		GConfig->GetString(TEXT("/Script/ProjectVic.DialogueTool"), TEXT("CurrentFileName"), SavedCurrentFileName, GGameIni);
+	// 		GConfig->GetString(TEXT("/Script/ProjectVic.DialogueTool"), TEXT("CurrentFilePath"), LoadFilePath, GGameIni);
+	// 	
+	// 		SetFileName(FPaths::GetCleanFilename(SavedCurrentFileName));
+	// 	}
+	// 	else
+	// 	{
+	// 		CreateWidgets();
+	// 	}
+	// }
 
 	GrabView_Action->GetSelectButton()->SetVisibility(ESlateVisibility::SelfHitTestInvisible);
 	GrabView_Action->SetVisibility(ESlateVisibility::Hidden);
@@ -721,8 +725,16 @@ void UDialogueToolWidget::AddActionColumn(int32 _LayerIndex, int32 _ActionIndex,
 			continue;
 		}
 
-		UDialogueAction* AddedAction = NewObject<UDialogueAction_Empty>(this);
-		AddActionAt(i, (_ActionIndex == -1) ? 0 : _ActionIndex, AddedAction);
+
+		if(-1 != _ActionIndex)
+		{
+			UDialogueAction* AddedAction = NewObject<UDialogueAction_Empty>(this);
+			AddActionAt(i, _ActionIndex, AddedAction);
+		}
+		else
+		{
+			AddAction(i, UDialogueAction_Empty::StaticClass());
+		}
 	}
 
 	FDialogueClip fDialogueClip;

@@ -80,6 +80,7 @@ void UIH_Widget_DialogueToolAction::SetActionInfo(UDialogueAction* _Action, int3
 	if(nullptr != _Action)
 	{
 		CPP_Txt_Name->SetText(_Action->Get_Name());
+		CPP_Txt_Name->SetColorAndOpacity(_Action->Get_Color());
 		CPP_Txt_Desc->SetText(_Action->Get_Description());
 	}
 }

@@ -10,6 +10,7 @@ public:
 	virtual void SaveToJson(TSharedPtr<FJsonObject> _JsonObject) override;
 	virtual void LoadFromJson(TSharedPtr<FJsonObject> _JsonObject) override;
 	virtual FText Get_Name() override;
+	virtual FSlateColor Get_Color() override;
 	virtual FText Get_Description() override;
 
 	void Execute() override;

@@ -1,7 +1,7 @@
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\DialogueTool\IH_Widget_DialogueToolAction.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\IH_Widget.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\IH_GameDefine.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\DialogueTool\IH_Widget_DialogueToolAction.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\IH_Widget.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\IH_GameDefine.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/SlateWrapperTypes.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\SlateWrapperTypes.generated.h
@@ -125,13 +125,25 @@ C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyP
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\DynamicPropertyPath.generated.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetBlueprintGeneratedClass.generated.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget.generated.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/DialogueEditToolWidget.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/DialogueEditToolWidget.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\DialogueAction.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\DialogueDefine.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\JsonGlobals.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction.generated.h
 C:\Program Files\UE_4.27\Engine\Source\Editor\Blutility\Classes\EditorUtilityWidget.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Blutility\EditorUtilityWidget.generated.h
 C:\Program Files\UE_4.27\Engine\Source\Developer\DesktopPlatform\Public\IDesktopPlatform.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueEditToolWidget.generated.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_DialogueToolAction.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueEditToolWidget.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_DialogueToolAction.generated.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Blueprint/WidgetLayoutLibrary.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetLayoutLibrary.generated.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/Button.h
@@ -157,17 +169,5 @@ C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextB
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/WidgetSwitcher.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SWidgetSwitcher.h
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\WidgetSwitcher.generated.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/DialogueAction.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\DialogueDefine.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\JsonGlobals.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction.generated.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/Action/DialogueAction_Empty.h
-C:\Users\nanim\GitHub\InsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_Empty.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/Action/DialogueAction_Empty.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_Empty.generated.h

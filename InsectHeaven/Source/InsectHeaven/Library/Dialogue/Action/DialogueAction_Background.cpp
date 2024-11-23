@@ -24,6 +24,12 @@ FText UDialogueAction_Background::Get_Name()
 	return FText::FromString("Background");
 }
 
+FSlateColor UDialogueAction_Background::Get_Color()
+{
+	FSlateColor BackGroundColor = FSlateColor(FLinearColor(FVector(0.74f, 0.74f, 0.74f)));
+	return BackGroundColor;
+}
+
 FText UDialogueAction_Background::Get_Description()
 {
 	return FText::AsNumber(BackgroundID);

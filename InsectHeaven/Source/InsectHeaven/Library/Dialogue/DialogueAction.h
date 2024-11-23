@@ -6,6 +6,8 @@
 #include "Dom/JsonObject.h"
 #include "DialogueAction.generated.h"
 
+struct FSlateColor;
+
 UCLASS(Abstract)
 class UDialogueAction : public UObject
 {
@@ -18,6 +20,7 @@ public:
 	virtual void SetFinish();
 	virtual void Reset();
 	virtual FText Get_Name();
+	virtual FSlateColor Get_Color();
 	virtual FText Get_Description();
 
 	virtual void Tick(float _fDeltaTime);

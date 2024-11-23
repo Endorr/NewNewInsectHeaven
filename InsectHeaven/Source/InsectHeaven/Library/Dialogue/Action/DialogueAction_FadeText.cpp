@@ -30,6 +30,12 @@ FText UDialogueAction_FadeText::Get_Name()
 	return FText::FromString("Fade Text");
 }
 
+FSlateColor UDialogueAction_FadeText::Get_Color()
+{
+	FSlateColor FadeTextColor = FSlateColor(FLinearColor(FVector(0.2f, 1.f, 0.36f)));
+	return FadeTextColor;
+}
+
 FText UDialogueAction_FadeText::Get_Description()
 {
 	return FText::AsNumber(AppearTime);

@@ -22,6 +22,12 @@ FText UDialogueAction_Fade::Get_Name()
 	return FText::FromString("Fade");
 }
 
+FSlateColor UDialogueAction_Fade::Get_Color()
+{
+	FSlateColor FadeColor = FSlateColor(FLinearColor(FVector(0.74f, 0.2f, 1.f)));
+	return FadeColor;
+}
+
 FText UDialogueAction_Fade::Get_Description()
 {
 	return IsFadeOut ? FText::FromString("FadeOut") : FText::FromString("FadeIn");
