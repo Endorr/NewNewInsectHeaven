@@ -23,6 +23,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	op(ETableDataType::BasePathDir) \
 	op(ETableDataType::BasePathWidget) \
 	op(ETableDataType::BasePathImage) \
+	op(ETableDataType::BasePathDialogue) \
 	op(ETableDataType::ResourceWidget) \
 	op(ETableDataType::Character2D) \
 	op(ETableDataType::Max_Table) 

@@ -30,7 +30,7 @@ void EmptyLinkFunctionForGeneratedCodeIH_TableDefine() {}
 		return ETableDataType_StaticEnum();
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_ETableDataType(ETableDataType_StaticEnum, TEXT("/Script/InsectHeaven"), TEXT("ETableDataType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_InsectHeaven_ETableDataType_Hash() { return 3500895916U; }
+	uint32 Get_Z_Construct_UEnum_InsectHeaven_ETableDataType_Hash() { return 1185617069U; }
 	UEnum* Z_Construct_UEnum_InsectHeaven_ETableDataType()
 	{
 #if WITH_HOT_RELOAD
@@ -47,12 +47,15 @@ void EmptyLinkFunctionForGeneratedCodeIH_TableDefine() {}
 				{ "ETableDataType::BasePathDir", (int64)ETableDataType::BasePathDir },
 				{ "ETableDataType::BasePathWidget", (int64)ETableDataType::BasePathWidget },
 				{ "ETableDataType::BasePathImage", (int64)ETableDataType::BasePathImage },
+				{ "ETableDataType::BasePathDialogue", (int64)ETableDataType::BasePathDialogue },
 				{ "ETableDataType::ResourceWidget", (int64)ETableDataType::ResourceWidget },
 				{ "ETableDataType::Character2D", (int64)ETableDataType::Character2D },
 				{ "ETableDataType::Max_Table", (int64)ETableDataType::Max_Table },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BasePathDialogue.DisplayName", "BasePathDialogue" },
+				{ "BasePathDialogue.Name", "ETableDataType::BasePathDialogue" },
 				{ "BasePathDir.DisplayName", "BasePathDir" },
 				{ "BasePathDir.Name", "ETableDataType::BasePathDir" },
 				{ "BasePathImage.DisplayName", "BasePathImage" },
