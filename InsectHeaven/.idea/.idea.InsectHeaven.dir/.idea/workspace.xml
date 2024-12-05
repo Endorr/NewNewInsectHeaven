@@ -8,17 +8,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3bacfaa8-f940-405e-a0dc-5a31e08066b1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_SelectCase.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_SelectCase.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/InsectHeaven/Table/DataStruct/BasePath_Dialogue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/InsectHeaven/Table/DataStruct/BasePath_Dialogue.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Dialogue.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Source/InsectHeaven/Table/TableMapper/IH_Mapper_BasePath_Dialogue.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.InsectHeaven.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.InsectHeaven.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/InsectHeavenEditor-Win64-DebugGame.target" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/InsectHeavenEditor-Win64-DebugGame.target" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-InsectHeaven-Win64-DebugGame.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Binaries/Win64/UE4Editor-InsectHeaven-Win64-DebugGame.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultEngine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultEngine.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/DataTable/BasePath_Directory.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/DataTable/BasePath_Directory.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/InsectHeavenModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/InsectHeavenModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/InsectHeavenModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/InsectHeavenModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
@@ -34,21 +26,6 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/InsectHeavenEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/InsectHeavenEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/InsectHeavenEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/InsectHeavenEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/InsectHeavenEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/InsectHeavenEditor/DebugGame/UnrealEd/SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/ActionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/ActionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction.cpp.obj.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction.cpp.obj.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Background.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Background.cpp.obj.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Background.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Background.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Fade.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Fade.cpp.obj.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Fade.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueAction_Fade.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueEditToolWidget.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueEditToolWidget.cpp.obj.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueEditToolWidget.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueEditToolWidget.cpp.obj.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueEditToolWidget.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/DialogueEditToolWidget.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/IH_Widget_DialogueToolAction.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/IH_Widget_DialogueToolAction.cpp.obj.response" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/IH_Widget_DialogueToolAction.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/IH_Widget_DialogueToolAction.cpp.obj.response.old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/IH_Widget_DialogueToolAction.cpp.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/IH_Widget_DialogueToolAction.cpp.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/LiveCodingInfo.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/LiveCodingInfo.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/Module.InsectHeaven.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/Module.InsectHeaven.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/Module.InsectHeaven.cpp.obj.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/Module.InsectHeaven.cpp.obj.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/Module.InsectHeaven.cpp.obj.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/Module.InsectHeaven.cpp.obj.response.old" afterDir="false" />
@@ -65,30 +42,24 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/UE4Editor-InsectHeaven-Win64-DebugGame.lib.response" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/UE4Editor-InsectHeaven-Win64-DebugGame.lib.response" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/UE4Editor-InsectHeaven-Win64-DebugGame.lib.response.old" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/UE4Editor-InsectHeaven-Win64-DebugGame.lib.response.old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/UE4Editor-InsectHeaven-Win64-DebugGame.suppressed.exp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/DebugGame/InsectHeaven/UE4Editor-InsectHeaven-Win64-DebugGame.suppressed.exp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction.generated.h" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/DialogueAction.generated.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/Timestamp" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/Win64/UE4Editor/Inc/InsectHeaven/Timestamp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/CachedAssetRegistry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/ReimportCache/3688439234.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Scene/EmptyMainLevel_Auto1.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Scene/EmptyMainLevel_Auto1.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Autosaves/Game/Scene/EmptyMainLevel_Auto2.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/Game/Scene/EmptyMainLevel_Auto2.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-4935164C45188B543AE31CB10FC20D8B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-742294114441198EFB7D40878F73E93C/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-8AFC02B9446F325EBBDD7AA808DA5D3B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-931D832A4837A1CAAD8402901C8B946B/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-B48650AE4B08E58AB4D21C8AEF24E6BC/CrashReportClient.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/CrashReportClient/UE4CC-Windows-C67C936A46DD6EC91A382391B7FA4B37/CrashReportClient.ini" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Engine.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/Windows/Game.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/Windows/Game.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven-backup-2024.11.23-13.02.16.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven-backup-2024.11.23-13.26.07.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven-backup-2024.11.23-13.28.45.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven-backup-2024.11.23-13.34.48.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven-backup-2024.11.23-13.50.11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven-backup-2024.11.23-14.03.46.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/InsectHeaven.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/InsectHeaven.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Background.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Background.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Background.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Background.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Fade.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Fade.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Fade.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Fade.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_FadeText.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_FadeText.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_FadeText.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_FadeText.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_ShowActor.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/Action/DialogueAction_Talk.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueAction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueAction.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueAction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueEditToolWidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueEditToolWidget.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Table/IH_TableDefine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Table/IH_TableDefine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Table/IH_TableManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Table/IH_TableManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/InsectHeaven/Widget/DialogueTool/IH_Widget_DialogueToolAction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/InsectHeaven/Widget/DialogueTool/IH_Widget_DialogueToolAction.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,6 +211,8 @@
       <workItem from="1732366725755" duration="79000" />
       <workItem from="1732367036079" duration="8400000" />
       <workItem from="1732378643979" duration="1897000" />
+      <workItem from="1732446147351" duration="652000" />
+      <workItem from="1733403455816" duration="1239000" />
     </task>
     <servers />
   </component>
@@ -256,6 +229,11 @@
           <url>file://$PROJECT_DIR$/Source/InsectHeaven/Library/Dialogue/DialogueEditToolWidget.cpp</url>
           <line>198</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/InsectHeaven/Widget/Dialogue/IH_Widget_DialogueScene.cpp</url>
+          <line>36</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

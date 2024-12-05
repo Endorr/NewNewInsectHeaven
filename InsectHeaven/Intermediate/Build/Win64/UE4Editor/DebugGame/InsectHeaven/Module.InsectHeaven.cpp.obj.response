@@ -40,14 +40,14 @@
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Scene
-/I D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Util
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Scene
+/I C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject
 /I Runtime\CoreUObject\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
@@ -281,16 +281,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
-/Yu"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
-/Fp"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch"
-"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp"
-/FI"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h"
-/Fo"D:\Users\PC\Documents\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.26100.0\winrt"
+/FI"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
+/Yu"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
+/Fp"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp"
+/FI"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h"
+/Fo"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Module.InsectHeaven.cpp.obj"
 /TP
 /GR-
 /W4

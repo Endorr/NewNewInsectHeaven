@@ -79,6 +79,7 @@ bool UIH_TableManager::GetFilePath(ETableDataType _eType, int32 _PathKey, FStrin
 			UIH_Mapper_BasePath_Img* pMapper_BasePathImage = Cast<UIH_Mapper_BasePath_Img>(GetTableMapper(ETableDataType::BasePathImage));
 			FileName = pMapper_BasePathImage->GetPath(_PathKey);
 		}
+		break;
 	case ETableDataType::BasePathDialogue:
 		{
 			DirectoryKey = 103;

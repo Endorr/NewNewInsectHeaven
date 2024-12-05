@@ -25,7 +25,6 @@
 			"IH_SceneLobby.cpp.obj",
 			"BasePath_Dialogue.cpp.obj",
 			"IH_TableDefine.cpp.obj",
-			"IH_TableManager.cpp.obj",
 			"IH_Mapper_BasePath_Dialogue.cpp.obj",
 			"IH_Mapper_BasePath_Dir.cpp.obj",
 			"IH_Mapper_BasePath_Img.cpp.obj",
@@ -52,7 +51,8 @@
 			"IH_Widget_DialogueToolLayerAdd.cpp.obj",
 			"IH_Widget.cpp.obj",
 			"IH_WidgetManager.cpp.obj",
-			"IH_Widget_MainLobby.cpp.obj"
+			"IH_Widget_MainLobby.cpp.obj",
+			"IH_TableManager.cpp.obj"
 		],
 		"Module.InsectHeaven.gen.cpp.obj": [
 			"BasePath_Dialogue.gen.cpp.obj",
