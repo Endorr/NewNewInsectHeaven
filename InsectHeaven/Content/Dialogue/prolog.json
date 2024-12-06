@@ -207,7 +207,7 @@
 				{
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
-					"ActorID": 3,
+					"ActorID": 36,
 					"IsLeft": false,
 					"IsDimmed": false
 				},
@@ -300,13 +300,13 @@
 					"bWaitInput": false
 				},
 				{
-					"ClassType": "DialogueAction_Fade",
-					"bWaitInput": false,
-					"IsFadeOut": true
-				},
-				{
 					"ClassType": "DialogueAction_Empty",
 					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Fade",
+					"bWaitInput": true,
+					"IsFadeOut": true
 				}
 			]
 		},
@@ -381,47 +381,47 @@
 					"bWaitInput": false
 				},
 				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
 					"ClassType": "DialogueAction_ShowActor",
 					"bWaitInput": false,
 					"ActorID": 7,
 					"IsLeft": true,
 					"IsDimmed": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
-				},
-				{
-					"ClassType": "DialogueAction_Empty",
-					"bWaitInput": false
 				},
 				{
 					"ClassType": "DialogueAction_Empty",

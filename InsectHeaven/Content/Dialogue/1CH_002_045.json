@@ -1,0 +1,941 @@
+{
+	"ActionLayers": [
+		{
+			"Actions": [
+				{
+					"ClassType": "DialogueAction_Fade",
+					"bWaitInput": false,
+					"IsFadeOut": true
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Fade",
+					"bWaitInput": true,
+					"IsFadeOut": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				}
+			]
+		},
+		{
+			"Actions": [
+				{
+					"ClassType": "DialogueAction_FadeText",
+					"bWaitInput": false,
+					"TalkString": "Dialogue_002_001",
+					"AppearTime": 1
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_FadeText",
+					"bWaitInput": false,
+					"TalkString": "Dialogue_002_002",
+					"AppearTime": 1
+				},
+				{
+					"ClassType": "DialogueAction_FadeText",
+					"bWaitInput": false,
+					"TalkString": "Dialogue_002_003",
+					"AppearTime": 1
+				},
+				{
+					"ClassType": "DialogueAction_FadeText",
+					"bWaitInput": false,
+					"TalkString": "Dialogue_002_004",
+					"AppearTime": 1
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_005",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_006",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_007",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_008",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_009",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_010",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_011",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_012",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_013",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_014",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_015",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_016",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_017",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_018",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_019",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_020",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "???",
+					"TalkString": "Dialogue_002_021",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_022",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_023",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_024",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_025",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_026",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_027",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_028",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_029",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_030",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_031",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_032",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_033",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_034",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_035",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_036",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_037",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_038",
+					"TextAppearDelay": 0.059999998658895493,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_039",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_040",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_041",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_042",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_043",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_044",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_045",
+					"TextAppearDelay": 0.05000000074505806,
+					"DimmedType": 4
+				}
+			]
+		},
+		{
+			"Actions": [
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": true,
+					"ActorID": 4,
+					"IsLeft": true,
+					"IsDimmed": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": true,
+					"ActorID": 4,
+					"IsLeft": true,
+					"IsDimmed": true
+				},
+				{
+					"ClassType": "DialogueAction_ShowActor",
+					"bWaitInput": true,
+					"ActorID": 4,
+					"IsLeft": true,
+					"IsDimmed": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				}
+			]
+		},
+		{
+			"Actions": [
+				{
+					"ClassType": "DialogueAction_Background",
+					"bWaitInput": false,
+					"BackgroundID": 15,
+					"IsSwitching": true
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				},
+				{
+					"ClassType": "DialogueAction_Empty",
+					"bWaitInput": false
+				}
+			]
+		}
+	]
+}
