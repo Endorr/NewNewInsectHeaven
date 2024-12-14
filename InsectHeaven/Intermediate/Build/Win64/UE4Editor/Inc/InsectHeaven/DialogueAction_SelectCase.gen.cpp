@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_SelectCase() {}
 		{ "MultiLine", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName = { "NickName", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_SelectCase, NickName), METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName_MetaData)) };
+	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName = { "NickName", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_SelectCase, NickName), METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName_MetaData)) };
 	const UE4CodeGen_Private::FStrPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_Inner = { "SelectCaseIDArray", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Str, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_MetaData[] = {
@@ -78,7 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_SelectCase() {}
 		{ "MultiLine", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray = { "SelectCaseIDArray", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_SelectCase, SelectCaseIDArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray = { "SelectCaseIDArray", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_SelectCase, SelectCaseIDArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_MetaData)) };
 	const UE4CodeGen_Private::FIntPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray_Inner = { "NextDialogueFileIDArray", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray_MetaData[] = {
@@ -88,7 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_SelectCase() {}
 		{ "MultiLine", "true" },
 	};
 #endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray = { "NextDialogueFileIDArray", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_SelectCase, NextDialogueFileIDArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray_MetaData)) };
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray = { "NextDialogueFileIDArray", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UDialogueAction_SelectCase, NextDialogueFileIDArray), EArrayPropertyFlags::None, METADATA_PARAMS(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NextDialogueFileIDArray_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UDialogueAction_SelectCase_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_NickName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UDialogueAction_SelectCase_Statics::NewProp_SelectCaseIDArray_Inner,
@@ -123,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeDialogueAction_SelectCase() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UDialogueAction_SelectCase, 3945316811);
+	IMPLEMENT_CLASS(UDialogueAction_SelectCase, 505361711);
 	template<> INSECTHEAVEN_API UClass* StaticClass<UDialogueAction_SelectCase>()
 	{
 		return UDialogueAction_SelectCase::StaticClass();

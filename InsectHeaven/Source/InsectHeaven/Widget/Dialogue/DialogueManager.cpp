@@ -1,6 +1,7 @@
 ﻿#include "DialogueManager.h"
 
 #include "FileHelpers.h"
+#include "DialogueTool/IH_Widget_DialogueToolAction.h"
 #include "Kismet/GameplayStatics.h"
 
 void UDialogueManager::Initialize()

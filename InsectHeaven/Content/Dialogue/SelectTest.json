@@ -1,0 +1,29 @@
+{
+	"ActionLayers": [
+		{
+			"Actions": [
+				{
+					"ClassType": "DialogueAction_Fade",
+					"bWaitInput": false,
+					"IsFadeOut": false
+				},
+				{
+					"ClassType": "DialogueAction_Talk",
+					"bWaitInput": true,
+					"ActorName": "None",
+					"TalkString": "Dialogue_002_009",
+					"TextAppearDelay": 0.5,
+					"DimmedType": 4
+				},
+				{
+					"ClassType": "DialogueAction_SelectCase",
+					"bWaitInput": false,
+					"NickName": "",
+					"SelectCaseCount": 1,
+					"SelectCase0": "Dialogue_002_011",
+					"DialogueFileID0": 1001
+				}
+			]
+		}
+	]
+}

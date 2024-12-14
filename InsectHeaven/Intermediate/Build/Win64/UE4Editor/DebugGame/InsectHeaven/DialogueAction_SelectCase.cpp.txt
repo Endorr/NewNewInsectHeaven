@@ -1,5 +1,28 @@
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\Dialogue\IH_Widget_DialogueScene.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\Action\DialogueAction_SelectCase.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/DialogueAction.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\DialogueDefine.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonObject.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\JsonGlobals.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Json\Public\Dom/JsonValue.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\DialogueAction_SelectCase.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableManager.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\SingletonInterface.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableDefine.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/BasePath_Directory.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\BasePath_Directory.generated.h
+C:\Program Files\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_TableManager.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue/IH_DialoguePlayer.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_DialoguePlayer.generated.h
+C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\Dialogue/IH_Widget_DialogueScene.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\IH_Widget.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\IH_GameDefine.h
 C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Blueprint/UserWidget.h
@@ -127,44 +150,3 @@ C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Widge
 C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\UserWidget.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget.generated.h
 C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_DialogueScene.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableManager.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\SingletonInterface.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\IH_TableDefine.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\DataStruct/BasePath_Directory.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\BasePath_Directory.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/StreamableManager.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_TableManager.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\IH_WidgetManager.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_WidgetManager.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\Dialogue\IH_Widget_DialogueSelect.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_DialogueSelect.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\Dialogue\IH_Widget_Portrait.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Widget_Portrait.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/Button.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/ContentWidget.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/PanelWidget.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelSlot.generated.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelWidget.generated.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ContentWidget.generated.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Button.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/CanvasPanel.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SConstraintCanvas.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\CanvasPanel.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/Image.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Engine\Public\Slate/SlateTextureAtlasInterface.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SlateTextureAtlasInterface.generated.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Image.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/RichTextBlock.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/TextWidgetTypes.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextWidgetTypes.generated.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\RichTextBlock.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/ScrollBox.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\Slate\Public\Widgets/Layout/SScrollBox.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\ScrollBox.generated.h
-C:\Program Files\UE_4.27\Engine\Source\Runtime\UMG\Public\Components/TextBlock.h
-C:\Program Files\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\TextBlock.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper/IH_Mapper_BasePath_Img.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Table\TableMapper\IH_TableMapper.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_TableMapper.generated.h
-C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\Inc\InsectHeaven\IH_Mapper_BasePath_Img.generated.h

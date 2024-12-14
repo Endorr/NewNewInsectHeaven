@@ -1,5 +1,8 @@
 #include "DialogueAction_SelectCase.h"
 
+#include "IH_TableManager.h"
+#include "Dialogue/IH_DialoguePlayer.h"
+#include "Dialogue/IH_Widget_DialogueScene.h"
 #include "Styling/SlateColor.h"
 
 void UDialogueAction_SelectCase::SaveToJson(TSharedPtr<FJsonObject> _JsonObject)
@@ -36,6 +39,35 @@ void UDialogueAction_SelectCase::LoadFromJson(TSharedPtr<FJsonObject> _JsonObjec
 		FString DialogueFileIDName = TEXT("DialogueFileID") + FString::FromInt(CountIndex);
 		NextDialogueFileIDArray.Emplace(_JsonObject->GetNumberField(DialogueFileIDName));
 	}
+}
+
+void UDialogueAction_SelectCase::Execute()
+{
+	Super::Execute();
+
+	UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
+	pWidget->SetSelectCase(true, SelectCaseIDArray, NextDialogueFileIDArray);
+
+}
+
+bool UDialogueAction_SelectCase::Progress(float _fDelta)
+{
+	if(UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget())
+	{
+		return pWidget->GetSelectCaseWait();
+	}
+
+	return false;
+}
+
+void UDialogueAction_SelectCase::Finish()
+{
+	TArray<FString> DummyStringArray;
+	TArray<int32> DummyIntArray;
+	UIH_Widget_DialogueScene* pWidget = pOwnerPlayer->GetDialogueWidget();
+	pWidget->SetSelectCaseWait(false);
+	
+	Super::Finish();
 }
 
 FText UDialogueAction_SelectCase::Get_Name()

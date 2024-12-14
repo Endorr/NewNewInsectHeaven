@@ -288,9 +288,9 @@
 /FI"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
 /Yu"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h"
 /Fp"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\InsectHeavenEditor\DebugGame\UnrealEd\SharedPCH.UnrealEd.NonOptimized.ShadowErrors.h.pch"
-"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Widget\Dialogue\DialogueManager.cpp"
+"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Source\InsectHeaven\Library\Dialogue\Action\DialogueAction_SelectCase.cpp"
 /FI"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\Definitions.InsectHeaven.h"
-/Fo"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\DialogueManager.cpp.obj"
+/Fo"C:\Users\nanim\GitHub\NewNewInsectHeaven\InsectHeaven\Intermediate\Build\Win64\UE4Editor\DebugGame\InsectHeaven\DialogueAction_SelectCase.cpp.obj"
 /TP
 /GR-
 /W4

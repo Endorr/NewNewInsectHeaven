@@ -14,6 +14,11 @@ public:
 	virtual FSlateColor Get_Color() override;
 	virtual FText Get_Description() override;
 
+protected:
+	virtual void Execute() override;
+	virtual bool Progress(float _fDelta) override;
+	virtual void Finish() override;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "UDialogueAction", meta = (MultiLine = "true"), meta = (DisplayPriority = "1"))
 	FString NickName = "";
 

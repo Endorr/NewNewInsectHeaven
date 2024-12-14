@@ -1,11 +1,14 @@
 ﻿#include "IH_Widget_DialogueScene.h"
 
 #include "IH_TableManager.h"
+#include "IH_WidgetManager.h"
+#include "IH_Widget_DialogueSelect.h"
 #include "IH_Widget_Portrait.h"
 #include "Components/Button.h"
 #include "Components/CanvasPanel.h"
 #include "Components/Image.h"
 #include "Components/RichTextBlock.h"
+#include "Components/ScrollBox.h"
 #include "Components/TextBlock.h"
 #include "Engine/Texture2D.h"
 #include "TableMapper/IH_Mapper_BasePath_Img.h"
@@ -88,6 +91,42 @@ void UIH_Widget_DialogueScene::SetFadeText(FString _Text)
 void UIH_Widget_DialogueScene::SetCommitDelegate(FDialogueWidgetButtonEvent _Delegate)
 {
 	OnClickedDelegate = _Delegate;
+}
+
+void UIH_Widget_DialogueScene::SetSelectCase(bool _IsShow, TArray<FString> _SelectCaseIDArray, TArray<int32> _DialogueFileIDArray)
+{
+	IsSelectCaseWait = _IsShow;
+	
+	if(CPP_Canvas_SelectCase)
+	{
+		CPP_Canvas_SelectCase->SetVisibility(IsSelectCaseWait ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
+	}
+
+	for(int32 ArrayIndex = 0; ArrayIndex < _SelectCaseIDArray.Num(); ++ArrayIndex)
+	{
+		if(false == _SelectCaseIDArray.IsValidIndex(ArrayIndex) || false == _DialogueFileIDArray.IsValidIndex(ArrayIndex))
+			break;
+		
+		FString SelectCaseID = _SelectCaseIDArray[ArrayIndex];
+		int32 DialogueFileID = _DialogueFileIDArray[ArrayIndex];
+
+		if(UIH_Widget_DialogueSelect* DialogueSelectWidget = Cast<UIH_Widget_DialogueSelect>(gWidgetMng.CreateWidgetNotManaging(UIH_Widget_DialogueSelect::GetWidgetPath())))
+		{
+			DialogueSelectWidget->SetSelectCase(SelectCaseID, DialogueFileID);
+			CPP_Scroll_SelectCase->AddChild(DialogueSelectWidget);
+		}
+	}
+}
+
+void UIH_Widget_DialogueScene::SetSelectCaseWait(bool _IsWait)
+{
+	IsSelectCaseWait = _IsWait;
+
+	if(CPP_Canvas_SelectCase)
+	{
+		CPP_Canvas_SelectCase->SetVisibility(IsSelectCaseWait ? ESlateVisibility::SelfHitTestInvisible : ESlateVisibility::Collapsed);
+	}
+
 }
 
 void UIH_Widget_DialogueScene::SetBackground(int32 _ImageID, bool _IsSwitching)

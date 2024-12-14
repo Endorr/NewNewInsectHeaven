@@ -60,7 +60,12 @@ public: \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UDialogueAction_SelectCase)
 
 
-#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_Action_DialogueAction_SelectCase_h_9_PRIVATE_PROPERTY_OFFSET
+#define InsectHeaven_Source_InsectHeaven_Library_Dialogue_Action_DialogueAction_SelectCase_h_9_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__NickName() { return STRUCT_OFFSET(UDialogueAction_SelectCase, NickName); } \
+	FORCEINLINE static uint32 __PPO__SelectCaseIDArray() { return STRUCT_OFFSET(UDialogueAction_SelectCase, SelectCaseIDArray); } \
+	FORCEINLINE static uint32 __PPO__NextDialogueFileIDArray() { return STRUCT_OFFSET(UDialogueAction_SelectCase, NextDialogueFileIDArray); }
+
+
 #define InsectHeaven_Source_InsectHeaven_Library_Dialogue_Action_DialogueAction_SelectCase_h_6_PROLOG
 #define InsectHeaven_Source_InsectHeaven_Library_Dialogue_Action_DialogueAction_SelectCase_h_9_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

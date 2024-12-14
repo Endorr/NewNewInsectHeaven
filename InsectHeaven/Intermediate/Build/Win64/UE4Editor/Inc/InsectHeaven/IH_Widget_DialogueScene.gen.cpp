@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 	UMG_API UClass* Z_Construct_UClass_UCanvasPanel_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UButton_NoRegister();
 	UMG_API UClass* Z_Construct_UClass_UTextBlock_NoRegister();
+	UMG_API UClass* Z_Construct_UClass_UScrollBox_NoRegister();
 // End Cross Module References
 	DEFINE_FUNCTION(UIH_Widget_DialogueScene::execOnCommit)
 	{
@@ -111,6 +112,14 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CPP_Txt_Fade_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CPP_Txt_Fade;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CPP_Canvas_SelectCase_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CPP_Canvas_SelectCase;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CPP_Scroll_SelectCase_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CPP_Scroll_SelectCase;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -208,6 +217,22 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Fade = { "CPP_Txt_Fade", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Txt_Fade), Z_Construct_UClass_UTextBlock_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Fade_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Fade_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Canvas_SelectCase_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Widget/Dialogue/IH_Widget_DialogueScene.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Canvas_SelectCase = { "CPP_Canvas_SelectCase", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Canvas_SelectCase), Z_Construct_UClass_UCanvasPanel_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Canvas_SelectCase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Canvas_SelectCase_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Scroll_SelectCase_MetaData[] = {
+		{ "BindWidget", "" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Widget/Dialogue/IH_Widget_DialogueScene.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Scroll_SelectCase = { "CPP_Scroll_SelectCase", nullptr, (EPropertyFlags)0x0020080000080008, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Scroll_SelectCase), Z_Construct_UClass_UScrollBox_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Scroll_SelectCase_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Scroll_SelectCase_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Img_Background,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Img_BackgroundSwitch,
@@ -219,6 +244,8 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Img_Right,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Img_RightDimmed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Txt_Fade,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Canvas_SelectCase,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::NewProp_CPP_Scroll_SelectCase,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UIH_Widget_DialogueScene_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UIH_Widget_DialogueScene>::IsAbstract,
@@ -247,7 +274,7 @@ void EmptyLinkFunctionForGeneratedCodeIH_Widget_DialogueScene() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UIH_Widget_DialogueScene, 1409827904);
+	IMPLEMENT_CLASS(UIH_Widget_DialogueScene, 2872155887);
 	template<> INSECTHEAVEN_API UClass* StaticClass<UIH_Widget_DialogueScene>()
 	{
 		return UIH_Widget_DialogueScene::StaticClass();

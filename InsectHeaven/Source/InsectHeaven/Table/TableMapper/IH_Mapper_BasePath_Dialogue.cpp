@@ -5,7 +5,7 @@
 void UIH_Mapper_BasePath_Dialogue::Initialize(UIH_TableManager* _pMng)
 {
 	TMap<FName, uint8*> mapTableData;
-	_pMng->GetRowDataMap(ETableDataType::BasePathImage, mapTableData);
+	_pMng->GetRowDataMap(ETableDataType::BasePathDialogue, mapTableData);
 	for(auto& elem : mapTableData)
 	{
 		int32 Key = FCString::Atoi(*elem.Key.ToString());

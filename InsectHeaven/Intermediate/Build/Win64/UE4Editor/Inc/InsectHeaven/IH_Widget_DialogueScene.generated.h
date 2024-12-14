@@ -78,7 +78,9 @@ public: \
 	FORCEINLINE static uint32 __PPO__CPP_Img_LeftDimmed() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_LeftDimmed); } \
 	FORCEINLINE static uint32 __PPO__CPP_Img_Right() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_Right); } \
 	FORCEINLINE static uint32 __PPO__CPP_Img_RightDimmed() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Img_RightDimmed); } \
-	FORCEINLINE static uint32 __PPO__CPP_Txt_Fade() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Txt_Fade); }
+	FORCEINLINE static uint32 __PPO__CPP_Txt_Fade() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Txt_Fade); } \
+	FORCEINLINE static uint32 __PPO__CPP_Canvas_SelectCase() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Canvas_SelectCase); } \
+	FORCEINLINE static uint32 __PPO__CPP_Scroll_SelectCase() { return STRUCT_OFFSET(UIH_Widget_DialogueScene, CPP_Scroll_SelectCase); }
 
 
 #define InsectHeaven_Source_InsectHeaven_Widget_Dialogue_IH_Widget_DialogueScene_h_8_PROLOG
