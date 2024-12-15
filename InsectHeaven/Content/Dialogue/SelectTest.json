@@ -19,9 +19,11 @@
 					"ClassType": "DialogueAction_SelectCase",
 					"bWaitInput": false,
 					"NickName": "",
-					"SelectCaseCount": 1,
+					"SelectCaseCount": 2,
 					"SelectCase0": "Dialogue_002_011",
-					"DialogueFileID0": 1001
+					"DialogueFileID0": 1001,
+					"SelectCase1": "Dialogue_002_001",
+					"DialogueFileID1": 1002
 				}
 			]
 		}

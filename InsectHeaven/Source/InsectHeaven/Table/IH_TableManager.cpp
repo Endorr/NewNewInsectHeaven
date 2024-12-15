@@ -155,7 +155,7 @@ void UIH_TableManager::AddTable()
 	EmplacePath(ETableDataType::BasePathDir, "/Game/DataTable/BasePath_Directory.BasePath_Directory");
 	EmplacePath(ETableDataType::BasePathWidget, "/Game/DataTable/BasePath_Widget.BasePath_Widget");
 	EmplacePath(ETableDataType::BasePathImage, "/Game/DataTable/BasePath_Image.BasePath_Image");
-	EmplacePath(ETableDataType::BasePathDialogue, "/Game/DataTable/BasePath_Dialogue");
+	EmplacePath(ETableDataType::BasePathDialogue, "/Game/DataTable/BasePath_Dialogue.BasePath_Dialogue");
 	EmplacePath(ETableDataType::Character2D, "/Game/DataTable/Character_2D.Character_2D");
 }
 
